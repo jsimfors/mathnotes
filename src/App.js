@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Button, Container, Row, Col } from 'react-bootstrap';
 import './App.css';
+import Sidebar from './components/sidebar'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Container fluid>
+      <Row>
+        <Col sm={3}>
+          {/* <Sidebar/> */}
+          Sidebar
+        </Col>
+        <Col>
+          <div className="pageContent">
+            PAgecontent
+            {/* <Route exact path="/" component={Dashboard} />
+            <Route path="/ovning1/teori" component={Ovning1t} /> */}
+          </div>
+        </Col>
+      </Row>
+</Container>
+  )
+  // return (
+  //   <div className="App">
+  //     <div className="sidebar">
+  //       Hello sidebar
+  //     </div>
+  //     <div className="App-header">
+  //       <p>
+  //         Welcome!
+  //         <Button/>
+  //       </p>
+  //     </div>
+  //   </div>
+  // );
 }
 
 export default App;
