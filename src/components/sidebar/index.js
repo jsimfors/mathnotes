@@ -2,13 +2,20 @@ import React from 'react'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
+import {
+    Route,
+    NavLink,
+    BrowserRouter,
+    Link
+    } from "react-router-dom";
 
-function SidebarItem({ label, items, depthStep = 10, depth = 0, ...rest }) {
+function SidebarItem({ label, link, expand, items, depthStep = 10, depth = 0, ...rest }) {
+
     return (
       <>
         <ListItem button dense {...rest}>
           <ListItemText style={{ paddingLeft: depth * depthStep }}>
-            <span>{label}</span>
+            <NavLink to={link?link:'/home'}>{label}</NavLink>
           </ListItemText>
         </ListItem>
         {Array.isArray(items) ? (
@@ -44,15 +51,4 @@ function SidebarItem({ label, items, depthStep = 10, depth = 0, ...rest }) {
     )
   }
 
-//   <ul className="nav">
-//   <li>
-//   <Link to="/">
-//       <p>Startsida</p>
-//   </Link>
-//   </li>
-//   <li>
-//   <Link to="/ovning1">
-//       <p>Övning 1</p>
-//   </Link>
-//   </li>
 export default Sidebar

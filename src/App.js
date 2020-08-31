@@ -11,13 +11,15 @@ import Startpage from './pages/startpage'
 import Ovning1 from './pages/ovning1'
 
 const items = [
-  { name: 'home', label: 'Home' },
+  { name: 'home', label: 'Home', link: '/home', expand:false },
   {
     name: 'ovning1',
     label: 'Övning 1',
+    link: '/ovning1',
+    expand:true,
     items: [
-      { name: 'f', label: 'Formelblad' },
-      { name: 'u', label: 'Förslag på tentauppgifter' },
+      { name: 'f', label: 'Formelblad', link: '/ovning1', expand:false },
+      { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning1', expand:false },
     ],
   }
 ]
@@ -31,25 +33,12 @@ function App() {
             <Sidebar items={items} />
           </Col>
           <Col>
-            {/* Content */}
           <div>
-          <h1>React Router Simple Starter</h1>
-            <ul className="header">
-              <li><NavLink exact to="/">Startsida</NavLink> </li>
-              <li><NavLink to="/ovning1">Övning 1</NavLink></li>
-              {/* <li><NavLink to="/Contact">Contact</NavLink></li> */}
-            </ul>
-          <div className="content">
-            <Route exact path="/" component={Startpage} />
-            <Route path="/ovning1" component={Ovning1} />
-            {/* <Route path="/contact" component={Contact} /> */}
+            <div className="content">
+              <Route exact path="/home" component={Startpage} />
+              <Route path="/ovning1" component={Ovning1} />
+            </div>
           </div>
-          </div>
-
-            {/* <Route exact path="/" component={Startpage} /> */}
-            {/* <Route path="/ovning1/teori" component={Ovning1t} />
-            <Route path="/ovning1/uppg" component={O1Uppg} />
-            <Route path="/ovning1/losnings" component={O1Losn} /> */}
           </Col>
         </Row>
       </Container>
