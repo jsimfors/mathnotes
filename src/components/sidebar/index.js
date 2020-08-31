@@ -1,89 +1,58 @@
-import React, { Component } from 'react';
-// import { Link, withRouter } from 'react-router-dom';
-// import { connect } from 'react-redux';
-import { Collapse } from 'react-bootstrap';
-import { Link, withRouter } from 'react-router-dom';
-import './styles.css'
+import React from 'react'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemText from '@material-ui/core/ListItemText'
 
-class Sidebar extends Component {
-
-//   state = {};
-
-  render() {
-
-    let { location } = this.props;
-
-    // let {
-    //   location,
-    //   backgroundColor,
-    //   enableBackgroundImage,
-    //   backgroundImage
-    // } = this.props;
-
+function SidebarItem({ label, items, depthStep = 10, depth = 0, ...rest }) {
+    return (
+      <>
+        <ListItem button dense {...rest}>
+          <ListItemText style={{ paddingLeft: depth * depthStep }}>
+            <span>{label}</span>
+          </ListItemText>
+        </ListItem>
+        {Array.isArray(items) ? (
+          <List disablePadding dense>
+            {items.map((subItem) => (
+              <SidebarItem
+                key={subItem.name}
+                depth={depth + 1}
+                depthStep={depthStep}
+                {...subItem}
+              />
+            ))}
+          </List>
+        ) : null}
+      </>
+    )
+  }
+  
+  function Sidebar({ items, depthStep, depth }) {
     return (
       <div className="sidebar">
-        <div className="sidebar-wrapper">
-          <div className="sidebar-header">
-            <h6>Anteckningar SF1624 HT2020</h6>
-          </div>
-          <div className="line"></div>
-        </div>
-        <div className="sidebar-background">
-            
-           {/* ------ Faktiska listan: */}
-           <ul className="nav">
-                <li className={location.pathname === '/' ? 'active' : null}>
-                <Link to="/">
-                    <i className="pe-7s-graph"></i>
-                    <p>Dashboard</p>
-                </Link>
-                </li>
-                <li className={this.isPathActive('/ovning1') || this.state.componentMenuOpen ? 'active' : null}>
-                <a onClick={() => this.setState({ componentMenuOpen: !this.state.componentMenuOpen })}
-                    data-toggle="collapse">
-                    <i className="pe-7s-plugin"></i>
-                    <p>
-                    övning1
-                    <b className="caret"></b>
-                    </p>
-                </a>
-                <Collapse in={this.state.componentMenuOpen}>
-                    <div>
-                    <ul className="nav">
-                        <li className={this.isPathActive('/ovning1/teori') ? 'active' : null}>
-                        <Link to="/ovning1/teori">Teori</Link>
-                        </li>
-                        <li className={this.isPathActive('/ovning1/uppg') ? 'active' : null}>
-                        <Link to="/ovning1/uppg">Förslag på tentauppgifter</Link>
-                        </li>
-                        {/* <li className={this.isPathActive('/ovning1/losnings') ? 'active' : null}>
-                        <Link to="/ovning1/losnings">Lösningsförslag</Link>
-                        </li> */}
-                    </ul>
-                    </div>
-                </Collapse>
-                </li>
-      </ul>
-
-        </div>
+        <List disablePadding dense>
+          {items.map((sidebarItem, index) => (
+            <SidebarItem 
+              key={`${sidebarItem.name}${index}`}
+              depthStep={depthStep}
+              depth={depth}
+              {...sidebarItem}
+            />
+          ))}
+        </List>
       </div>
     )
   }
 
-
-  isPathActive(path) {
-    return this.props.location.pathname.startsWith(path);
-  }
-}
-
-// const mapStateToProps = state => ({
-//   enableBackgroundImage: state.ThemeOptions.enableBackgroundImage,
-//   backgroundColor: state.ThemeOptions.backgroundColor,
-//   backgroundImage: state.ThemeOptions.backgroundImage
-// });
-
-// export default withRouter(
-//   connect(mapStateToProps)(SideBar)
-// );
-
-export default Sidebar;
+//   <ul className="nav">
+//   <li>
+//   <Link to="/">
+//       <p>Startsida</p>
+//   </Link>
+//   </li>
+//   <li>
+//   <Link to="/ovning1">
+//       <p>Övning 1</p>
+//   </Link>
+//   </li>
+export default Sidebar
