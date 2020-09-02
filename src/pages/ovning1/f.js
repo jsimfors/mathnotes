@@ -6,6 +6,7 @@ const Ovning1f = () => (
       <div className="row">
         <div className="col-md-12">
           Övning 1 formelblad wazzup
+          <iframe width="100%" height="800" src="https://www.docdroid.net/pGWwrhI/ovning1-teori-pdf" frameborder="3" allowtransparency allowfullscreen></iframe>
         </div>
       </div>
     </div>

@@ -14,6 +14,8 @@ import Ovning1f from './pages/ovning1/f.js'
 import Ovning1u from './pages/ovning1/u.js'
 import Ovning2f from './pages/ovning2/f.js'
 import Ovning2u from './pages/ovning2/u.js'
+import Ovning3f from './pages/ovning3/f.js'
+import Ovning3u from './pages/ovning3/u.js'
 
 
 const items = [
@@ -31,17 +33,17 @@ const items = [
     { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning2/u.js' },
   ],
   },
-  { name: 'ovning3', label: 'Övning 2', link: '',
+  { name: 'ovning3', label: 'Övning 3', link: '',
+  items: [
+    { name: 'f', label: 'Formelblad', link: '/ovning3/f.js' },
+    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning3/u.js' },
+  ],
+  } , { name: 'ovning4', label: 'Övning X', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning2/f.js' },
     { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning2/u.js' },
   ],
-  } , { name: 'ovning4', label: 'Övning 2', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/ovning2/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning2/u.js' },
-  ],
-  },  { name: 'ovning5', label: 'Övning 2', link: '',
+  },  { name: 'ovning5', label: 'Övning X', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning2/f.js' },
     { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning2/u.js' },
@@ -55,7 +57,9 @@ function App() {
       <Container fluid>
         <Row>
           <Col>
-            <h3>Matteanteckningar SF1624</h3>
+            <div className="header">
+              Matteanteckningar SF1624
+            </div>
           </Col>
         </Row>
         <Row>
@@ -73,6 +77,8 @@ function App() {
               <Route path="/ovning1/u.js" component={Ovning1u} />
               <Route path="/ovning2/f.js" component={Ovning2f} />
               <Route path="/ovning2/u.js" component={Ovning2u} />
+              <Route path="/ovning3/f.js" component={Ovning3f} />
+              <Route path="/ovning3/u.js" component={Ovning3u} />
             </div>
           </div>
           </Col>
