@@ -5,8 +5,10 @@ const Ovning3f = () => (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12">
-          Övning 3 formelblad
-          <iframe width="90%" height="800" src="https://www.docdroid.net/OHPOLXw/ovning3-teori-pdf" frameborder="0" allowtransparency allowfullscreen></iframe>
+          <div className="inner-content">
+            <h2>Formelblad</h2>
+            <iframe width="90%" height="1350" title="formelblad" src="https://www.docdroid.net/OHPOLXw/ovning3-teori-pdf" frameBorder="3" allowFullScreen></iframe>
+          </div>
         </div>
       </div>
     </div>

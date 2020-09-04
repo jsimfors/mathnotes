@@ -1,6 +1,7 @@
 import React from 'react';
+import '../../innerPages.css'
 
-const Ovning2u = () => (
+const Ovning4u = () => (
   <div className="content">
     <div className="container-fluid">
       <div className="row">
@@ -8,11 +9,11 @@ const Ovning2u = () => (
         <div className="inner-content">
           <h2>Förslag på tentauppgifter</h2>
           <a href="https://kth.instructure.com/courses/11555/files/3063997/download?wrap=1">Tentamen 2020-04-17</a> Uppgift 2 
-        </div>        
+        </div>
         </div>
       </div>
     </div>
   </div>
 );
 
-export default Ovning2u
+export default Ovning4u

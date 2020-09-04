@@ -1,9 +1,13 @@
 .inner-content {
-    color: rgb(26, 26, 26);
+    color: #292F36;
     padding: 20px;
 }
 
 .inner-content h2 {
-    font-weight: bolder;
-
+    color: #292F36;
 }
+
+
+.inner-content a {
+    color:#4ECDC4 !important;
+  }

@@ -1,17 +1,12 @@
 import React from 'react'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
-import ListItemText from '@material-ui/core/ListItemText'
 import {
-    Route,
     NavLink,
-    BrowserRouter,
-    Link
     } from "react-router-dom";
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
-import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import "./styles.css"
 
@@ -42,7 +37,7 @@ return (
                     //     dense
                     // >
                     //     <ListItemText>
-                        <li><NavLink to={subItem.link?subItem.link:'/home'}>{subItem.label}</NavLink></li>
+                        <li key={subItem.name}><NavLink to={subItem.link?subItem.link:'/home'}>{subItem.label}</NavLink></li>
                     //     </ListItemText>
                     // </ListItem>
                     )
