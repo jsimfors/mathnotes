@@ -9,10 +9,20 @@
 }
 
 .MuiAccordionSummary-root {
+    /* Expandable components */
     background-color: #4ECDC4 !important;
 }
 
-.MuiAccordionDetails-root {
-    background-color: #4ECDC4 !important;
+.outside.MuiListItem-root{
+    /* Non-expandable components, startpage etc */
+    background-color: #389f98 !important;
+    color: #292F36;
+    font-size: large;
+    font-weight: bolder;
+}
 
+
+.MuiAccordionDetails-root {
+    /* Expanded contents */
+    background-color: #4ECDC4 !important;
 }

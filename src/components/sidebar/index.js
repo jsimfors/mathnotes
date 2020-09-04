@@ -23,7 +23,6 @@ return (
                     <span>{label}</span>
                 </ListItem>
                 </AccordionSummary>
-
                 <AccordionDetails>
             {/* {Array.isArray(subItems) ? (
                 <List> */}

@@ -28,15 +28,10 @@ html, body {
   font-weight: 300;
 }
 
-.sub-header {
-  background-color: #4ECDC4;
-  height: 10px;
-}
-
 .sidebar a {
   color: #292F36 !important;
 }
 
-a#start {
+.outside a {
   color: #292F36 !important;
 }

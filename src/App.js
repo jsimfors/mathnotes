@@ -5,11 +5,14 @@ import {
   BrowserRouter
   } from "react-router-dom";
 import ListItem from '@material-ui/core/ListItem'
-
+import Accordion from '@material-ui/core/Accordion';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
 import { Container, Row, Col} from 'react-bootstrap';
 import './App.css';
 import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
+import Tipspage from './pages/tipspage'
 import Ovning1f from './pages/ovning1/f.js'
 import Ovning1u from './pages/ovning1/u.js'
 import Ovning2f from './pages/ovning2/f.js'
@@ -37,7 +40,7 @@ import Ovning12u from './pages/ovning12/u.js'
 
 
 const items = [
-  // { name: 'home', label: 'Home', link: '/home' },
+  //  { name: 'home', label: 'Home', link: '/home' },
   { name: 'ovning1', label: 'Övning 1', link: '',
     items: [
       { name: 'f', label: 'Formelblad', link: '/ovning1/f.js' },
@@ -141,15 +144,12 @@ function App() {
         </Row>
         <Row>
           <Col sm={3}>
-          <ListItem>
-              <NavLink id="start" to={'/home'}>Startsida</NavLink>
+          <ListItem className="outside">
+              <NavLink to={'/home'}>Startsida</NavLink>
           </ListItem>
           <Sidebar items={items} />
-          <ListItem>
-              <NavLink id="start" to={'/home'}>Algebra pluggtips</NavLink>
-          </ListItem>
-          <ListItem>
-              <NavLink id="start" to={'/home'}>Det här svårt</NavLink>
+          <ListItem className="outside">
+              <NavLink to={'/tips'}>Algebra pluggtips</NavLink>
           </ListItem>
           </Col>
           <Col>
@@ -180,6 +180,8 @@ function App() {
               <Route path="/ovning11/u.js" component={Ovning11u} />
               <Route path="/ovning12/f.js" component={Ovning12f} />
               <Route path="/ovning12/u.js" component={Ovning12u} />
+              <Route path="/tips" component={Tipspage} />
+
 
             </div>
           </div>
