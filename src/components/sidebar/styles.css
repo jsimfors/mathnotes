@@ -1,3 +1,18 @@
 .sidebar {
-    background-color: blue;
+    background-color: #292F36
+}
+
+.MuiAccordionSummary-content {
+    color: #292F36;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.MuiAccordionSummary-root {
+    background-color: #4ECDC4 !important;
+}
+
+.MuiAccordionDetails-root {
+    background-color: #4ECDC4 !important;
+
 }

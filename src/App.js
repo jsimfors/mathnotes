@@ -60,6 +60,8 @@ function App() {
             <div className="header">
               Matteanteckningar SF1624
             </div>
+            <div className="sub-header">
+            </div>
           </Col>
         </Row>
         <Row>
