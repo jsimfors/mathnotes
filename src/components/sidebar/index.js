@@ -24,9 +24,13 @@ return (
                 </ListItem>
                 </AccordionSummary>
                 <AccordionDetails>
+                    <ul>
+                        <li key={subItems[0].name}><NavLink to={subItems[0].link?subItems[0].link:'/home'}>{subItems[0].label}</NavLink></li>
+                        <li key={subItems[1].name}><NavLink to={subItems[1].link?subItems[1].link:'/home'}>{subItems[1].label}</NavLink></li>
+                    </ul>
             {/* {Array.isArray(subItems) ? (
                 <List> */}
-                <ul>
+                {/* <ul>
                 {subItems.map((subItem) => {
                     return (
                     // <ListItem
@@ -36,12 +40,12 @@ return (
                     //     dense
                     // >
                     //     <ListItemText>
-                        <li key={subItem.name}><NavLink to={subItem.link?subItem.link:'/home'}>{subItem.label}</NavLink></li>
+                        <li key={subItem.name}>hi<NavLink to={subItem.link?subItem.link:'/home'}>ho{subItem.label}</NavLink></li>
                     //     </ListItemText>
                     // </ListItem>
                     )
                 })}
-                </ul>
+                </ul> */}
                 {/* </List>
             ) : null} */}
                 </AccordionDetails>

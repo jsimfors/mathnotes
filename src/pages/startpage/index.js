@@ -9,7 +9,7 @@ const Startpage = () => (
         <div className="col-md-12">
           <div className="inner-content" id="startpage">
             <h2>Välkommen!</h2>
-            Här här jag samlat materialet till mina övningar. Varje övning har ett unikt formelblad. Är du bekväm med allt som står på formelbladet borde det inte vara några problem att ta sig igenom tillhörande uppgifter eller att klara modulens seminarie.
+            {/* Här här jag samlat materialet till mina övningar. Varje övning har ett unikt formelblad. Är du bekväm med allt som står på formelbladet borde det inte vara några problem att ta sig igenom tillhörande uppgifter eller att klara modulens seminarie.
             <br/>
             <br/>
             Föredrar man som jag att räkna gamla tentauppgifter från start, istället för ur boken eller andra övningsuppgifter, så har jag föreslagit några gamla tentauppgifter till varje övning.
@@ -24,7 +24,7 @@ const Startpage = () => (
             Nu under: <i><u>period 2 HT20</u></i> assar jag Medieteknik och Öppen Ingång. För att se schemat kan ni gå in på <u>TimeCloud</u>, jag har alltid tredje och fjärde salen i schemat
             <br/>
             <br/>
-            Lycka till i plugget! /Johanna
+            Lycka till i plugget! /Johanna */}
             
           </div>        
         </div>
