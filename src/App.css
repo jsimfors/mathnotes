@@ -2,7 +2,6 @@ html, body {
   min-height: 100%;
   color: #F7FFF7;
   overflow-x: hidden;
-
  }
 
 #root {
@@ -17,7 +16,6 @@ html, body {
   height: 100%;
   padding: 0px !important;
   margin: 0px;
-
  }
 
 .header {

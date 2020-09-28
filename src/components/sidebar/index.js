@@ -28,26 +28,6 @@ return (
                         <li key={subItems[0].name}><NavLink to={subItems[0].link?subItems[0].link:'/home'}>{subItems[0].label}</NavLink></li>
                         <li key={subItems[1].name}><NavLink to={subItems[1].link?subItems[1].link:'/home'}>{subItems[1].label}</NavLink></li>
                     </ul>
-            {/* {Array.isArray(subItems) ? (
-                <List> */}
-                {/* <ul>
-                {subItems.map((subItem) => {
-                    return (
-                    // <ListItem
-                    //     key={subItem.name}
-                    //     style={{ paddingLeft: 36 }}
-                    //     button
-                    //     dense
-                    // >
-                    //     <ListItemText>
-                        <li key={subItem.name}>hi<NavLink to={subItem.link?subItem.link:'/home'}>ho{subItem.label}</NavLink></li>
-                    //     </ListItemText>
-                    // </ListItem>
-                    )
-                })}
-                </ul> */}
-                {/* </List>
-            ) : null} */}
                 </AccordionDetails>
             </Accordion>
             </React.Fragment>
@@ -57,49 +37,5 @@ return (
     </div>
 )
 }
-// function SidebarItem({ label, link, expand, items, depthStep = 10, depth = 0, ...rest }) {
-
-//     return (
-//       <>
-//         <ListItem button dense {...rest}>
-//           <ListItemText style={{ paddingLeft: depth * depthStep }}>
-//             <NavLink to={link?link:'/home'}>{label}</NavLink>
-//           </ListItemText>
-//         </ListItem>
-//         {Array.isArray(items) ? (
-//           <List disablePadding dense>
-//             {items.map((subItem) => (
-//                 console.log(subItem) ,             
-
-//               <SidebarItem
-//                 key={subItem.name}
-//                 depth={depth + 1}
-//                 depthStep={depthStep}
-//                 {...subItem}
-//               />
-//             ))}
-//           </List>
-//         ) : null}
-//       </>
-//     )
-//   }
-  
-//   function Sidebar({ items, depthStep, depth }) {
-//     return (
-//       <div className="sidebar">
-//         <List disablePadding dense>
-//           {items.map((sidebarItem, index, expand) => (
-//               console.log(sidebarItem) ,             
-//             <SidebarItem 
-//               key={`${sidebarItem.name}${index}`}
-//               depthStep={depthStep}
-//               depth={depth}
-//               {...sidebarItem}
-//             />
-//           ))}
-//         </List>
-//       </div>
-//     )
-//   }
 
 export default Sidebar

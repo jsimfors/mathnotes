@@ -8,8 +8,7 @@ const Tipspage = () => (
       <div className="row">
         <div className="col-md-12">
           <div className="inner-content" id="startpage">
-            <h2>Lite pluggtips o bra länkar till dig från mig</h2>
-            Babababa
+            <h2>Pluggtips</h2>
           </div>        
         </div>
       </div>
