@@ -45,84 +45,84 @@ const items = [
   { name: 'ovning1', label: 'Övning 1', link: '',
     items: [
       { name: 'f', label: 'Formelblad', link: '/ovning1/f.js' },
-      { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning1/u.js' },
+      { name: 'u', label: 'Anteckningar från övning', link: '/ovning1/u.js' },
     ],
   },
 
   { name: 'ovning2', label: 'Övning 2', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning2/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning2/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning2/u.js' },
   ],
   },
 
   { name: 'ovning3', label: 'Övning 3', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning3/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning3/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning3/u.js' },
     ],
   }, 
   
   { name: 'ovning4', label: 'Övning 4', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning4/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning4/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning4/u.js' },
     ],
   },  
   
   { name: 'ovning5', label: 'Övning 5', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning5/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning5/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning5/u.js' },
     ],
   },
 
   { name: 'ovning6', label: 'Övning 6', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning6/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning6/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning6/u.js' },
     ],
   },
 
   { name: 'ovning7', label: 'Övning 7', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning7/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning7/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning7/u.js' },
   ],
   },
 
   { name: 'ovning8', label: 'Övning 8', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning8/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning8/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning8/u.js' },
   ],
   },
 
   { name: 'ovning9', label: 'Övning 9', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning9/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning9/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning9/u.js' },
   ],
   },
 
   { name: 'ovning10', label: 'Övning 10', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning10/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning10/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning10/u.js' },
   ],
   },
 
   { name: 'ovning11', label: 'Övning 11', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning11/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning11/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning11/u.js' },
   ],
   },
 
   { name: 'ovning12', label: 'Övning 12', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning12/f.js' },
-    { name: 'u', label: 'Förslag på tentauppgifter', link: '/ovning12/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning12/u.js' },
   ],
   },
 
@@ -146,7 +146,7 @@ function App() {
         <Row>
           <Col sm={3}>
           <ListItem className="outside">
-              <NavLink to={'/home'}>Startsida</NavLink>
+              <NavLink to={'/'}>Startsida</NavLink>
           </ListItem>
           <Sidebar items={items} />
           <ListItem className="outside">
@@ -160,7 +160,7 @@ function App() {
           <Col>
           <div>
             <div className="content">
-              <Route exact path="/home" component={Startpage} />
+              <Route exact path="/" component={Startpage} />
               <Route path="/ovning1/f.js" component={Ovning1f} />
               <Route path="/ovning1/u.js" component={Ovning1u} />
               <Route path="/ovning2/f.js" component={Ovning2f} />

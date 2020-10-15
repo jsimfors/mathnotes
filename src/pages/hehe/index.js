@@ -7,7 +7,7 @@ const Hehepage = () => (
       <div className="row">
         <div className="col-md-12">
           <div className="inner-content" id="startpage">
-            <img src={require('../../imgs/' + Math.floor(Math.random()*(15)+1) + '.jpg')} />
+            <img src={require('../../imgs/' + Math.floor(Math.random()*(16)+1) + '.jpg')} />
           </div>        
         </div>
       </div>
