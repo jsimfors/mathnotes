@@ -13,6 +13,7 @@ import './App.css';
 import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
 import Tipspage from './pages/tipspage'
+import Hehepage from './pages/hehe'
 import Ovning1f from './pages/ovning1/f.js'
 import Ovning1u from './pages/ovning1/u.js'
 import Ovning2f from './pages/ovning2/f.js'
@@ -151,6 +152,10 @@ function App() {
           <ListItem className="outside">
               <NavLink to={'/tips'}>Algebra pluggtips</NavLink>
           </ListItem>
+          <NavLink to={'/hehe'}>
+            <ListItem className="outside" id="hehe"/>
+          </NavLink>
+
           </Col>
           <Col>
           <div>
@@ -181,8 +186,7 @@ function App() {
               <Route path="/ovning12/f.js" component={Ovning12f} />
               <Route path="/ovning12/u.js" component={Ovning12u} />
               <Route path="/tips" component={Tipspage} />
-
-
+              <Route path="/hehe" component={Hehepage} />
             </div>
           </div>
           </Col>
