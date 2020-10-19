@@ -42,84 +42,84 @@ import Ovning12u from './pages/ovning12/u.js'
 
 const items = [
   //  { name: 'home', label: 'Home', link: '/home' },
-  { name: 'ovning1', label: 'Övning 1', link: '',
+  { name: 'ovning1', label: '1. Grundläggande Vektoralgebra & Linjer ', link: '',
     items: [
       { name: 'f', label: 'Formelblad', link: '/ovning1/f.js' },
       { name: 'u', label: 'Anteckningar från övning', link: '/ovning1/u.js' },
     ],
   },
 
-  { name: 'ovning2', label: 'Övning 2', link: '',
+  { name: 'ovning2', label: '2. Plan, Ekvationssystem & Gausselimination ', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning2/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning2/u.js' },
   ],
   },
 
-  { name: 'ovning3', label: 'Övning 3', link: '',
+  { name: 'ovning3', label: '3. Matrisaritmetik & Gausselimination forts.', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning3/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning3/u.js' },
     ],
   }, 
   
-  { name: 'ovning4', label: 'Övning 4', link: '',
+  { name: 'ovning4', label: '4. Inversmatriser', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning4/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning4/u.js' },
     ],
   },  
   
-  { name: 'ovning5', label: 'Övning 5', link: '',
+  { name: 'ovning5', label: '5. Linjärkombination, Linjärt Oberoende & Delrum', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning5/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning5/u.js' },
     ],
   },
 
-  { name: 'ovning6', label: 'Övning 6', link: '',
+  { name: 'ovning6', label: '6. Determinanten', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning6/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning6/u.js' },
     ],
   },
 
-  { name: 'ovning7', label: 'Övning 7', link: '',
+  { name: 'ovning7', label: '7. Linjära Avbildningar', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning7/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning7/u.js' },
   ],
   },
 
-  { name: 'ovning8', label: 'Övning 8', link: '',
+  { name: 'ovning8', label: '8. Bildrum & Nollrum', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning8/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning8/u.js' },
   ],
   },
 
-  { name: 'ovning9', label: 'Övning 9', link: '',
+  { name: 'ovning9', label: '9. Baser & Ortogonala Komplement', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning9/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning9/u.js' },
   ],
   },
 
-  { name: 'ovning10', label: 'Övning 10', link: '',
+  { name: 'ovning10', label: '10. Gram Schmidt & MKM', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning10/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning10/u.js' },
   ],
   },
 
-  { name: 'ovning11', label: 'Övning 11', link: '',
+  { name: 'ovning11', label: '11. Egenvektorer, Egenvärden & Diagonalisering', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning11/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning11/u.js' },
   ],
   },
 
-  { name: 'ovning12', label: 'Övning 12', link: '',
+  { name: 'ovning12', label: '12. Linjära Avbildningar i Olika Baser & Kvadratisk Form', link: '',
   items: [
     { name: 'f', label: 'Formelblad', link: '/ovning12/f.js' },
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning12/u.js' },
