@@ -26,7 +26,11 @@ return (
                 <AccordionDetails>
                     <ul>
                         <li key={subItems[0].name}><NavLink to={subItems[0].link?subItems[0].link:'/home'}>{subItems[0].label}</NavLink></li>
+                        {subItems[1]?
                         <li key={subItems[1].name}><NavLink to={subItems[1].link?subItems[1].link:'/home'}>{subItems[1].label}</NavLink></li>
+                        :
+                        <div></div>
+                        }
                     </ul>
                 </AccordionDetails>
             </Accordion>

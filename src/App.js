@@ -38,10 +38,11 @@ import Ovning11f from './pages/ovning11/f.js'
 import Ovning11u from './pages/ovning11/u.js'
 import Ovning12f from './pages/ovning12/f.js'
 import Ovning12u from './pages/ovning12/u.js'
+import Ovning13u from './pages/ovning13/u.js'
+import Ovning14u from './pages/ovning14/u.js'
 
 
 const items = [
-  //  { name: 'home', label: 'Home', link: '/home' },
   { name: 'ovning1', label: '1. Grundläggande Vektoralgebra & Linjer ', link: '',
     items: [
       { name: 'f', label: 'Formelblad', link: '/ovning1/f.js' },
@@ -125,6 +126,16 @@ const items = [
     { name: 'u', label: 'Anteckningar från övning', link: '/ovning12/u.js' },
   ],
   },
+  { name: 'ovning13', label: '13. Repetitionsövning 1', link: '',
+  items: [
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning12/u.js' },
+  ],
+  },
+  { name: 'ovning14', label: '14. Repetitionsövning 2', link: '',
+  items: [
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning12/u.js' },
+  ],
+  },
 
 
   
@@ -145,13 +156,17 @@ function App() {
         </Row>
         <Row>
           <Col sm={3}>
-          <ListItem className="outside">
-              <NavLink to={'/'}>Startsida</NavLink>
-          </ListItem>
-          <Sidebar items={items} />
-          <ListItem className="outside">
-              <NavLink to={'/tips'}>Algebra pluggtips</NavLink>
-          </ListItem>
+            <NavLink to={'/'}>
+              <ListItem className="outside">
+                  Startsida
+              </ListItem>
+            </NavLink>
+            <Sidebar items={items} />
+            <NavLink to={'/tips'}>
+              <ListItem className="outside">
+                  Algebra pluggtips
+              </ListItem>
+            </NavLink>
           <NavLink to={'/hehe'}>
             <ListItem className="outside" id="hehe"/>
           </NavLink>
@@ -185,6 +200,8 @@ function App() {
               <Route path="/ovning11/u.js" component={Ovning11u} />
               <Route path="/ovning12/f.js" component={Ovning12f} />
               <Route path="/ovning12/u.js" component={Ovning12u} />
+              <Route path="/ovning13/u.js" component={Ovning13u} />
+              <Route path="/ovning14/u.js" component={Ovning14u} />
               <Route path="/tips" component={Tipspage} />
               <Route path="/hehe" component={Hehepage} />
             </div>
