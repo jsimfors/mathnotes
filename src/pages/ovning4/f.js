@@ -12,8 +12,7 @@ const Ovning4f = () => (
             <br/><br/>
             Delar av denna:
             https://youtu.be/uQhTuRlWMxw
-            <iframe width="90%" height="1350" title="formelblad" src="https://www.docdroid.net/xGtuSAv/ovning4-teori-pdf" frameBorder="3" allowFullScreen></iframe>
-          </div>
+            <iframe width="100%" height="600" src="https://www.docdroid.net/ck9XX2d/ovning4-anteckningar-pdf" frameborder="0" allowtransparency allowfullscreen></iframe>          </div>
         </div>
       </div>
     </div>

@@ -5,9 +5,7 @@ const Ovning3u = () => (
     <div className="container-fluid">
       <div className="row">
         <div className="inner-content">
-          <h2>Förslag på tentauppgifter</h2>
-          <a href="https://kth.instructure.com/courses/11555/files/3063997/download?wrap=1">Tentamen 2020-04-17</a> Uppgift 2 
-        </div>
+          <iframe width="90%" height="1350" src="https://www.docdroid.net/uVUaE2y/ovning3-anteckningar-pdf" frameborder="0" allowtransparency allowfullscreen></iframe>        </div>
       </div>
     </div>
   </div>

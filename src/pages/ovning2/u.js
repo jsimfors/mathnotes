@@ -6,9 +6,7 @@ const Ovning2u = () => (
       <div className="row">
         <div className="col-md-12">
         <div className="inner-content">
-          <h2>Anteckningar Övning 2</h2>
-          <a href="https://kth.instructure.com/courses/11555/files/3063997/download?wrap=1">Tentamen 2020-04-17</a> Uppgift 2 
-        </div>        
+          <iframe width="90%" height="1350"  src="https://www.docdroid.net/xXFOO4b/ovning2-anteckningar-pdf" frameborder="0" allowtransparency allowfullscreen></iframe>        </div>        
         </div>
       </div>
     </div>
