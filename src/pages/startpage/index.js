@@ -3,18 +3,14 @@ import '../../innerPages.css'
 
 
 const Startpage = () => (
-  <div className="content">
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="inner-content" id="startpage">
-            <h2>Välkommen!</h2>
-            
-          </div>        
-        </div>
-      </div>
-    </div>
-  </div>
+  <div className="inner-content startpage">
+    <div className="inner-header">Välkommen</div>
+    På denna sida finns anteckningar samt formelblad till alla mina övningar.
+    Formelbladen innehåller det du behöver för att ta dig igenom respektive övning, 
+    så läs gärna igenom tillhörande formelblad redan innan övningen.
+    <br/><br/>
+    Johanna Simfors, <i>simfors@kth.se</i>
+  </div>        
 );
 
 export default Startpage;

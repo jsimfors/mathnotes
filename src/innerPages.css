@@ -13,9 +13,10 @@
     color:#4ECDC4 !important;
   }
 
-.inner-content.tips .inner-header{
+.inner-header{
     font-size: xx-large;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .inner-content.tips .subHeader{
