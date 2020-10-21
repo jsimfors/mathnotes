@@ -128,12 +128,12 @@ const items = [
   },
   { name: 'ovning13', label: '13. Repetitionsövning 1', link: '',
   items: [
-    { name: 'u', label: 'Anteckningar från övning', link: '/ovning12/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning13/u.js' },
   ],
   },
   { name: 'ovning14', label: '14. Repetitionsövning 2', link: '',
   items: [
-    { name: 'u', label: 'Anteckningar från övning', link: '/ovning12/u.js' },
+    { name: 'u', label: 'Anteckningar från övning', link: '/ovning14/u.js' },
   ],
   },
 

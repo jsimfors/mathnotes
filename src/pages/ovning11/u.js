@@ -3,6 +3,7 @@ import '../../innerPages.css'
 
 const Ovning11u = () => (
   <div className="inner-content">
+    <iframe width="90%" height="1350"  src="https://www.docdroid.net/FKmNJBb/ovning11-anteckningar-pdf" frameborder="0" allowtransparency allowfullscreen></iframe>
   </div>
 );
 
