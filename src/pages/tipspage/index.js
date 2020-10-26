@@ -26,7 +26,13 @@ const Tipspage = () => (
       <a href="http://bit.ly/stukan">Stukan</a>
     </div>
     Stukan är en sammanfattning av hela kursen, skriven av föreläsare ‎Tâm Đức Vũ‎. Tjusningen med Stukan är att den har väldigt välgjorda lösningsförslag, täcker typ alla områden samt att den innehåller lite humor, vilket värmer gott i pluggtunga tider likt dessa! Passar perfekt om du efter både föreläsningar och övningar fortfarande inte känner att du helt greppar ett område.
-  </div>        
+    <div className="subHeader">
+      <a href="https://www.ludu.co/course/linjar-algebra/">
+        Ludu
+      </a>
+      Sidan Ludu sammanfattar hela kursen väldigt snyggt och enkelt! Ibland lite väl förenklat, så att teorin inte riktigt blir heltäckande. Men absolut ett kanon förstasteg om man känner sig rikslost inom ett område.
+    </div>
+  </div>
 );
 
 export default Tipspage;
