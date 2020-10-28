@@ -21,7 +21,7 @@ const Tipspage = () => (
     Ett verktyg, gjort av några studenter på KTH, som sorterar alla gamla tentauppgifter i typ alla kurser på KTH efter både område och svårighetsgrad. 
     Denna sidan har hjälpt mig sååå mycket! Typiskt nice att hitta de enklaste tentauppgifterna i varje område, så man kan börja med tentatal redan i Modul 1, då blir tröskeln inte så stor när tenta-P väl börjar.
     Också nice, om man är en statistiknörd som jag, att kunna betygsätta svårighetsgraden på alla uppgifter man gör, gå tillbaka och göra om de man tidigare tyckte va svåra, följa sin utveckling. osv osv.
-    Det kostar en slant att låsa upp en kurs, om man inte tycker det är värt så är det såklart heeelt ok, alla pluggar på sitt sätt! :) 
+    Obs! Det kostar en slant att låsa upp en kurs.
     <div className="subHeader">
       <a href="http://bit.ly/stukan">Stukan</a>
     </div>
@@ -30,8 +30,13 @@ const Tipspage = () => (
       <a href="https://www.ludu.co/course/linjar-algebra/">
         Ludu
       </a>
-      Sidan Ludu sammanfattar hela kursen väldigt snyggt och enkelt! Ibland lite väl förenklat, så att teorin inte riktigt blir heltäckande. Men absolut ett kanon förstasteg om man känner sig rikslost inom ett område.
     </div>
+      Sidan Ludu sammanfattar hela kursen väldigt snyggt och enkelt! Ibland lite väl förenklat, så att teorin inte riktigt blir heltäckande. Men absolut ett kanon förstasteg om man känner sig rikslost inom ett område.
+  <div className="subHeader">
+    Online Matrisberäkning
+  </div>
+    Ni måste såklart lära er beräkna allting för hand, för på tentan kommer ni inte ha några hjälpmedel. Men ibland kan det vara skönt att dubbelkolla ens beräkningar, speciellt om man kör fast och inte fattar var man gör fel. Då är sidorna <a href="http://matrixcalc.org/en/">Matrixcalc.org/eng</a> och <a href="https://matrix.reshish.com/">matrix.reshish.com</a> riktigt nice.
+    Där kan man beräkna både matrismultiplikaitoner, determinanter, ta fram egenvärden och radreducera. Men som sagt, använd det bara som ett hjälpmedel att hitta var ni räknat fel, och inte som en ersättare för att räkna själva. 
   </div>
 );
 

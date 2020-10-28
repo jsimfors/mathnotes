@@ -4,10 +4,7 @@ import {
   NavLink,
   BrowserRouter
   } from "react-router-dom";
-import ListItem from '@material-ui/core/ListItem'
-import Accordion from '@material-ui/core/Accordion';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
+import ListItem from '@material-ui/core/ListItem';
 import { Container, Row, Col} from 'react-bootstrap';
 import './App.css';
 import Sidebar from './components/sidebar'
