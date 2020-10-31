@@ -1,2 +1,2 @@
 ## Mathnotes
-TBA
+Nothes for my math-classes
