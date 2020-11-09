@@ -33,6 +33,12 @@ const Tipspage = () => (
     </div>
       Sidan Ludu sammanfattar hela kursen väldigt snyggt och enkelt! Ibland lite väl förenklat, så att teorin inte riktigt blir heltäckande. Men absolut ett kanon förstasteg om man känner sig rikslost inom ett område.
   <div className="subHeader">
+      <a href="http://ingforum.haninge.kth.se/armin/AR_12_13/SF1624/diralgeom12.html">
+        Armins teoriblad
+      </a>
+    </div>
+    Armins teoriblad går igenom typ alla områden du kan tänka dig, ofta på ganska detaljerad nivå. Riktigt nice! Innehåller även exempeluppgifter med lösningsförslag.
+    <div className="subHeader">
     Online Matrisberäkning
   </div>
     Ni måste såklart lära er beräkna allting för hand, för på tentan kommer ni inte ha några hjälpmedel. Men ibland kan det vara skönt att dubbelkolla ens beräkningar, speciellt om man kör fast och inte fattar var man gör fel. Då är sidorna <a href="http://matrixcalc.org/en/">Matrixcalc.org/eng</a> och <a href="https://matrix.reshish.com/">matrix.reshish.com</a> riktigt nice.
