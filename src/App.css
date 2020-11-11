@@ -39,3 +39,9 @@ html, body {
   height: 10px;
   margin-bottom: 100px;
 }
+
+#blueText {
+  color:#059389 !important;
+  font-weight: bolder;
+  font-style: italic;
+}
