@@ -3,7 +3,7 @@ import '../../innerPages.css'
 
 const Ovning12f = () => (
   <div className="inner-content">
-    <iframe width="90%" height="1350" title="formelblad" src="https://www.docdroid.net/uxwDUhE/ovning12-teori-pdf" frameBorder="3" allowFullScreen></iframe>
+    <iframe width="90%" height="1350" title="formelblad" src="https://drive.google.com/file/d/1iaLWcwohdUSVdzQRUlw7PAbfqFpRhyZw/preview" frameBorder="3" allowFullScreen></iframe>
   </div>
 );
 

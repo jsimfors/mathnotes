@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ovning2u = () => (
   <div className="inner-content">
-    <iframe width="90%" height="1350" title="anteckningar" src="https://www.docdroid.net/xXFOO4b/ovning2-anteckningar-pdf" frameborder="0" allowtransparency allowfullscreen></iframe>
+    <iframe width="90%" height="1350" title="anteckningar" src="https://drive.google.com/file/d/12lTRP9dYUCbH1tsZJx4M6txkaK9RGJHx/preview" frameborder="0" allowtransparency allowfullscreen></iframe>
   </div>        
 );
 
