@@ -165,7 +165,9 @@ function App() {
               </ListItem>
             </NavLink>
           <NavLink to={'/hehe'}>
-            <ListItem className="outside" id="hehe"/>
+            <ListItem className="outside" id="hehe">
+            <img alt="hehe" src={require('./imgs/logo192.png')} />
+              </ListItem>
           </NavLink>
 
           </Col>
