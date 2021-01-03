@@ -143,17 +143,6 @@ function algApp() {
     <BrowserRouter>
       <Container fluid>
         <Row>
-          <Col>
-            <div className="header">
-            <NavLink to={'/'}>
-                  {'<'}
-            </NavLink>Matteanteckningar SF1624
-            </div>
-            <div className="sub-header">
-            </div>
-          </Col>
-        </Row>
-        <Row>
           <Col sm={3}>
             <NavLink to={'/algebra'}>
               <ListItem className="outside">

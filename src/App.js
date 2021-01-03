@@ -11,13 +11,23 @@ import './App.css';
 import Sidebar from './algebra/components/sidebar'
 import Startpage from './algebra/pages/startpage'
 import algApp from './algebra/algApp';
-import multApp from './multApp';
-import sannApp from './sannApp';
+// import multApp from './multApp';
+// import sannApp from './sannApp';
 
 function App() {
   return (
     <BrowserRouter>
       <Container fluid>
+      <Row>
+          <Col>
+            <div className="header">
+            <NavLink to={'/'}>
+                  {'<'}
+            </NavLink>
+            Matteanteckningar
+            </div>
+          </Col>
+        </Row>
         <Row>
           <Col>
           <Route exact path="/">
@@ -34,8 +44,8 @@ function App() {
           </NavLink> 
           </Route>
           <Route path="/algebra" component={algApp} />
-          <Route path="/flervarre" component={multApp} />
-          <Route path="/sannstat" component={sannApp} />
+          <Route path="/flervarre" component={algApp} />
+          <Route path="/sannstat" component={algApp} />
           </Col>
         </Row>
       </Container>
