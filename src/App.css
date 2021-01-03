@@ -26,6 +26,10 @@ html, body {
   font-weight: 300;
 }
 
+.sub-header {
+  color:#292F36;
+}
+
 .sidebar a {
   color: #292F36 !important;
 }

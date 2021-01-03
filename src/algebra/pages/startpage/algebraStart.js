@@ -2,7 +2,7 @@ import React from 'react';
 import '../../innerPages.css'
 
 
-const Startpage = () => (
+const algebraStartpage = () => (
   <div className="inner-content startpage">
     <div className="inner-header">Välkommen</div>
     På denna sida finns anteckningar samt formelblad till alla mina övningar.
@@ -21,4 +21,4 @@ const Startpage = () => (
   </div>        
 );
 
-export default Startpage;
+export default algebraStartpage;
