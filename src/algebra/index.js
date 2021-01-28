@@ -158,7 +158,7 @@ const AlgebraPage = () => {
           </Col>
         </Row>
         <Row>
-          <Col sm={3}>
+          <Col sm={3} id="sidebar-wrapper">
             <NavLink to={'/algebra'}>
               <ListItem className="outside">
                   Algebra Startsida

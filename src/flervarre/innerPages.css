@@ -1,8 +1,3 @@
-.inner-content {
-    color: #363629;
-    padding: 20px;
-    padding-top: 40px;
-}
 
 .inner-content h2 {
     color: #292F36;
@@ -12,11 +7,6 @@
     color:#daab2c !important;
 }
 
-.inner-header{
-    font-size: xx-large;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
 
 .inner-content.tips .subHeader{
     font-size: x-large;

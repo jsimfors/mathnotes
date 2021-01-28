@@ -1,5 +1,5 @@
-.sidebar {
-    /* background-color: #292F36 */
+#sidebar-wrapper {
+    margin-left: 20px;
 }
 
 .MuiAccordionSummary-content {
@@ -10,26 +10,34 @@
 
 #algebra .MuiAccordionSummary-root {
     /* Expandable components */
-    border-radius: 25px;
-    margin-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
 
 }
 
 #algebra .MuiPaper-root{
     background-color: rgba(0, 0, 0, 0);
+    box-shadow: none !important;
 }
 
 .outside.MuiListItem-root {
     /* Non-expandable components, startpage etc */
-    background-color: #389f98 !important;
-    color: #292F36;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
     font-size: large;
     font-weight: bolder;
 }
 
 
+.MuiAccordion-root:before {
+    height: 0px !important;
+}
+
 #algebra  .MuiAccordionDetails-root {
     /* Expanded contents */
-    background-color: #4ECDC4 !important;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
