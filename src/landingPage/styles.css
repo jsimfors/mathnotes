@@ -11,16 +11,22 @@
 }
 
 #landing .inner-content {
-    padding-top: 15%;
+    padding-top: 10%;
     text-align: center;
-    font-size: x-large;
+    font-size: medium;
     font-style: italic;
 }
 
-#landing .inner-content .buttons{
-    margin: 20px;
+#landing .inner-content .title{
+    margin-bottom: 25px;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 500;
 }
 
+#landing .inner-content .buttons {
+    margin: 10px;
+}
 
 #landing .inner-content .buttons Button{
     margin: 10px;

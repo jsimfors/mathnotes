@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: #292F36
+    /* background-color: #292F36 */
 }
 
 .MuiAccordionSummary-content {
@@ -10,7 +10,14 @@
 
 #algebra .MuiAccordionSummary-root {
     /* Expandable components */
-    background-color: #4ECDC4 !important;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.616);
+
+}
+
+#algebra .MuiPaper-root{
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .outside.MuiListItem-root {

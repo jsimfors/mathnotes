@@ -1,6 +1,7 @@
 html, body {
   color: #F7FFF7;
   overflow-x: hidden;
+  height: 100vh;
  }
 
 #root {
@@ -8,8 +9,10 @@ html, body {
   height: 100%;
   /* color: #F7FFF7; */
   color: #000000;
+}
 
-
+html, body, #app, #app>div {
+  height: 100%
 }
 
 .container-fluid {
