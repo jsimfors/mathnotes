@@ -6,9 +6,10 @@ import {
   } from "react-router-dom";
 import './App.css';
 
-import LandingPage from "./testpages"
-import AlgebraPage from "./algebra/algApp"
-import FlervarrePage from "./testpages/product2"
+import LandingPage from "./landingPage";
+import AlgebraPage from "./algebra";
+import FlervarrePage from "./flervarre";
+import SannstatPage from "./sannstat";
 
 const App = () => {
   return (
@@ -17,8 +18,11 @@ const App = () => {
         <Route path="/algebra">
           <AlgebraPage />
         </Route>
-        <Route path="/newflervarre">
+        <Route path="/flervarre">
           <FlervarrePage />
+        </Route>
+        <Route path="/sannstat">
+          <SannstatPage />
         </Route>
         <Route exact path="/" >
           <LandingPage />

@@ -6,7 +6,9 @@ const LandingPage = () => {
       <h3>Landingpage</h3>
       <Link to="/algebra" >Go to algebra</Link>
       <br />
-      <Link to="/newflervarre" >Go to flervarre</Link>
+      <Link to="/flervarre" >Go to flervarre</Link>
+      <br />
+      <Link to="/sannstat" >Go to sannstat</Link>
 
     </div>
   );

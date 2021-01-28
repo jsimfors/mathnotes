@@ -1,14 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-// EJ AKTIV
-const AlgebraPage = () => {
+const SannstatPage = () => {
   return (
     <div>
-      <h3>Algebra !!!!!!</h3>      
+      <h3>Sannstat</h3>      
       <Link to="/" >Go back</Link>
-
     </div>
   );
 }
-export default AlgebraPage;
+export default SannstatPage;
