@@ -1,8 +1,8 @@
-#flervarre .sidebar {
-    background-color: #292F36
+#sidebar-wrapper {
+    margin-left: 20px;
 }
 
-#flervarre .MuiAccordionSummary-content {
+.MuiAccordionSummary-content {
     color: #292F36;
     font-size: large;
     font-weight: bolder;
@@ -10,23 +10,34 @@
 
 #flervarre .MuiAccordionSummary-root {
     /* Expandable components */
-    background-color: #f0d270 !important;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+
 }
 
-#flervarre .outside.MuiListItem-root{
+#flervarre .MuiPaper-root{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none !important;
+}
+
+.outside.MuiListItem-root {
     /* Non-expandable components, startpage etc */
-    background-color: #cf9100 !important;
-    color: #292F36;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
     font-size: large;
     font-weight: bolder;
 }
 
-#flervarre .outside.MuiListItem-root#hehe{
-    background-color: white !important;
+
+.MuiAccordion-root:before {
+    height: 0px !important;
 }
 
-
-#flervarre .MuiAccordionDetails-root {
+#flervarre  .MuiAccordionDetails-root {
     /* Expanded contents */
-    background-color: #dfa11d !important;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
