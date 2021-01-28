@@ -3,11 +3,12 @@ import {
   Route,
   NavLink,
   BrowserRouter,
+  useHistory,
   Link,
   Switch
   } from "react-router-dom";
 import ListItem from '@material-ui/core/ListItem';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, Button} from 'react-bootstrap';
 import '../App.css';
 import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
@@ -138,14 +139,22 @@ const items = [
 ]
 
 const AlgebraPage = () => {
+    let history = useHistory();
+
+    const redirect = () => {
+      history.push('/')
+    }
+
+
   return (
     <BrowserRouter>
       <Container fluid id="algebra">
-        <Row>
-          <Col>
-            <div className="topHeader">
-              SF1624 ALGEBRA &#038; GEOMETRI
-            </div>
+        <Row className="topHeader">
+          <Col sm={1}>
+            <Button variant="dark" onClick={redirect}><text>&#8678;</text></Button>
+          </Col>
+          <Col sm={11} id="text">
+            SF1624 ALGEBRA &#038; GEOMETRI
           </Col>
         </Row>
         <Row>

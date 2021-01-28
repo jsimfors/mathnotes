@@ -30,7 +30,11 @@
     border-bottom: 5px solid #389f98;
     padding: 20px;
     color: #292F36;
+   }
+
+#algebra .topHeader #text{
     font-weight: 700;
+    width: 100%;
     font-size: xx-large;
     text-align: center;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";

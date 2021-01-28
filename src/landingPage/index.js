@@ -1,16 +1,29 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import { Container, Row, Col, Button} from 'react-bootstrap';
+import './styles.css'
+
+
 const LandingPage = () => {
   return (
-    <div>
-      <h3>Landingpage</h3>
-      <Link to="/algebra" >Go to algebra</Link>
-      <br />
-      <Link to="/flervarre" >Go to flervarre</Link>
-      <br />
-      <Link to="/sannstat" >Go to sannstat</Link>
-
-    </div>
+    <Container fluid id="landing">
+      <Row>
+        <Col className="inner-content">
+          Välj din kurs:
+          <div className="buttons">
+            <Link to="/algebra">
+              <Button variant="warning">SF1624 Algebra</Button>
+            </Link>
+            <Link to="/algebra" >
+              <Button variant="warning">SF1626 Flervarre</Button>
+            </Link>
+            <Link to="/algebra" >
+              <Button variant="warning">SF16XY Sannstat</Button>
+            </Link>
+          </div>
+      </Col>
+      </Row>
+  </Container>
   );
 };
 export default LandingPage;

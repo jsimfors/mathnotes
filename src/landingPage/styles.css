@@ -1,0 +1,32 @@
+/* CSS FOR LANDING PAGE */
+
+#landing{
+    background-image: url(./backsvg.svg);
+    background-repeat:no-repeat;
+    background-position:left bottom;
+}
+
+.container.fluid#landing {
+    height: 100vh;
+}
+
+#landing .inner-content {
+    padding-top: 15%;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
+
+#landing .inner-content .buttons{
+    margin: 20px;
+}
+
+
+#landing .inner-content .buttons Button{
+    margin: 10px;
+}
+
+#landing svg {
+    position:absolute;
+    bottom: 0;
+} 

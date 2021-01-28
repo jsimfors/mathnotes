@@ -3,11 +3,12 @@ import {
   Route,
   NavLink,
   BrowserRouter,
+  useHistory,
   Link,
   Switch
   } from "react-router-dom";
 import ListItem from '@material-ui/core/ListItem';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, Button} from 'react-bootstrap';
 import '../App.css';
 import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
@@ -138,14 +139,21 @@ const items = [
 ]
 
 const FlervarrePage  = () => {
+  let history = useHistory();
+
+  const redirect = () => {
+    history.push('/')
+  }
+
   return (
     <BrowserRouter>
       <Container fluid id="flervarre">
-        <Row>
-          <Col>
-            <div className="topHeader">
-              SF1626 FLERVARIABELANALYS
-          </div>
+      <Row className="topHeader">
+          <Col sm={1}>
+            <Button  variant="warning" onClick={redirect}><text>&#8678;</text></Button>
+          </Col>
+          <Col sm={11} id="text">
+            SF1626 FLERVARIABELANALYS
           </Col>
         </Row>
         <Row>
