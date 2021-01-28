@@ -24,3 +24,14 @@
     margin-top: 20px;
     margin-bottom: 7px;
 }
+
+#algebra .topHeader{
+    background-color: #389f98 ;
+    border-bottom: 5px solid #389f98;
+    padding: 20px;
+    color: #292F36;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}

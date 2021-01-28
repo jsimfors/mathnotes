@@ -140,16 +140,11 @@ const items = [
 const FlervarrePage  = () => {
   return (
     <BrowserRouter>
-      <Container fluid>
+      <Container fluid id="flervarre">
         <Row>
           <Col>
-          <div style={{color: "white",
-            backgroundColor: "#292f36" ,
-            padding: "20px",
-            fontSize: "92px",
-            textAlign: "center"
-            }} >
-            <h3>FLERVARRE</h3>
+            <div className="topHeader">
+              SF1626 FLERVARIABELANALYS
           </div>
           </Col>
         </Row>
@@ -157,7 +152,7 @@ const FlervarrePage  = () => {
           <Col sm={3}>
             <NavLink to={'/flervarre'}>
               <ListItem className="outside">
-                  Startsida
+                  Flervarre Startsida
               </ListItem>
             </NavLink>
             <Sidebar items={items} />

@@ -1,28 +1,32 @@
-.sidebar {
+#flervarre .sidebar {
     background-color: #292F36
 }
 
-.MuiAccordionSummary-content {
+#flervarre .MuiAccordionSummary-content {
     color: #292F36;
     font-size: large;
     font-weight: bolder;
 }
 
-.MuiAccordionSummary-root {
+#flervarre .MuiAccordionSummary-root {
     /* Expandable components */
-    background-color: #4ECDC4 !important;
+    background-color: #f0d270 !important;
 }
 
-.outside.MuiListItem-root{
+#flervarre .outside.MuiListItem-root{
     /* Non-expandable components, startpage etc */
-    background-color: #389f98 !important;
+    background-color: #cf9100 !important;
     color: #292F36;
     font-size: large;
     font-weight: bolder;
 }
 
+#flervarre .outside.MuiListItem-root#hehe{
+    background-color: white !important;
+}
 
-.MuiAccordionDetails-root {
+
+#flervarre .MuiAccordionDetails-root {
     /* Expanded contents */
-    background-color: #4ECDC4 !important;
+    background-color: #dfa11d !important;
 }

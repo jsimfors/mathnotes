@@ -140,24 +140,19 @@ const items = [
 const AlgebraPage = () => {
   return (
     <BrowserRouter>
-      <Container fluid>
+      <Container fluid id="algebra">
         <Row>
           <Col>
-          <div style={{color: "white",
-            backgroundColor: "#292f36" ,
-            padding: "20px",
-            fontSize: "92px",
-            textAlign: "center"
-            }} >
-            <h3>ALGEBRA</h3>
-          </div>
+            <div className="topHeader">
+              SF1624 ALGEBRA &#038; GEOMETRI
+            </div>
           </Col>
         </Row>
         <Row>
           <Col sm={3}>
             <NavLink to={'/algebra'}>
               <ListItem className="outside">
-                  Startsida
+                  Algebra Startsida
               </ListItem>
             </NavLink>
             <Sidebar items={items} />
@@ -176,7 +171,6 @@ const AlgebraPage = () => {
           <Col>
           <div>
             <div className="content">
-            <Switch>
                 <Route exact path="/algebra" component={Startpage} />
                 <Route path="/algebra/ovning1/f.js" component={Ovning1f} />
                 <Route path="/algebra/ovning1/u.js" component={Ovning1u} />
@@ -206,7 +200,6 @@ const AlgebraPage = () => {
                 <Route path="/algebra/ovning14/u.js" component={Ovning14u} />
                 <Route path="/algebra/tips" component={Tipspage} />
                 <Route path="/algebra/hehe" component={Hehepage} />
-              </Switch>
             </div>
           </div>
           </Col>

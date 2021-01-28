@@ -12,7 +12,7 @@ import "./styles.css"
 
 function Sidebar({ items }) {
 return (
-    <div className="sidebar">
+    <div className="sidebar" id="flervarre">
     <List disablePadding dense>
         {items.map(({ label, name, link, items: subItems, ...rest }) => {
         return (
