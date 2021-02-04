@@ -7,16 +7,26 @@ html, body {
 #root {
   min-height: 100%;
   height: 100%;
-  /* color: #F7FFF7; */
-  color: #000000;
+
+  /* CUSTOM COLORS: */
+  --primary-white: rgb(246, 244, 244);
+  --primary-black: rgb(25, 25, 26);
+  --primary-blue: #64a5bf;
+  --secondary-blue: #b5e9ff;
+  --primary-salmon: #ff5c64;
+  --secondary-salmon: #ff7373;
+  --primary-fire: rgb(223, 109, 33);
+  --secondary-fire: rgb(224, 136, 36);
+
 }
 
 html, body, #app, #app>div {
   height: 100%
 }
 
+
+
 .container-fluid {
-  /*color: #F7FFF7; */
   color: #000000;
   height: 100vh;
   padding: 0px !important;

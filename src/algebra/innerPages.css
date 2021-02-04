@@ -1,8 +1,8 @@
 
 
 #algebra.container-fluid {
-    background-image: url(./blueback.svg);
-    background-color: #474b4a3f;
+    /*background-image: url(./blueback.svg);*/
+    background-color: var(--primary-salmon);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position:left bottom;
