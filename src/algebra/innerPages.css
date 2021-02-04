@@ -1,15 +1,12 @@
-
-
 #algebra.container-fluid {
-    /*background-image: url(./blueback.svg);*/
-    background-color: var(--primary-salmon);
+    background-color: var(--primary-white);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position:left bottom;
     height:200vh;
 }
 
-#algebra .inner-content {
+.inner-content {
     color: #363629;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.616);
@@ -39,14 +36,28 @@
     margin-bottom: 7px;
 }
 
-#algebra .topHeader{
-    padding: 20px;
-    color: #292F36;
-   }
 
-#algebra .topHeader #text{
+.topHeader #text{
     width: 100%;
-    font-size: 3.5em;
-    text-align: center;
+    bottom: -30px;
+    z-index: 10;
+    font-size: 6em;
+    text-align: left;
+    font-weight: bold;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.topHeader #backButton{
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+    padding-top: 1.4em;
+}
+
+
+.topHeader #backButton:hover {
+    cursor: pointer;
+    font-weight: 500;
 }

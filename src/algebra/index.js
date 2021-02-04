@@ -150,11 +150,13 @@ const AlgebraPage = () => {
     <BrowserRouter>
       <Container fluid id="algebra">
         <Row className="topHeader">
-          <Col sm={1}>
-            <Button variant="dark" onClick={redirect}><text>&#8678;</text></Button>
+          <Col sm={1} id="wrapperBackButton">
+            {/* <Button onClick={redirect}><text>&#8678;</text></Button> */}
+            <div id="backButton" onClick={redirect}>&#60;</div>
           </Col>
-          <Col sm={11} id="text">
-            SF1624 ALGEBRA &#038; GEOMETRI
+          <Col  sm={11} id="text">
+            Algebra.
+            {/* SF1624 ALGEBRA &#038; GEOMETRI */}
           </Col>
         </Row>
         <Row>

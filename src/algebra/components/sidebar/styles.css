@@ -1,31 +1,33 @@
 #sidebar-wrapper {
-    margin-left: 20px;
+    background: linear-gradient(0deg, var(--primary-blue) 35%, var(--secondary-blue) 100%);
 }
 
 .MuiAccordionSummary-content {
+    /* closest div around inner text */
     color: #292F36;
     font-size: large;
     font-weight: bolder;
 }
 
 #algebra .MuiAccordionSummary-root {
-    /* Expandable components */
-    border-radius: 30px;
+    /* large div around text  */
     margin-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
-
+    /* background-color: rgba(255, 255, 255, 0.4); */
 }
 
 #algebra .MuiPaper-root{
+    /* Full sidebar block */
     background-color: rgba(0, 0, 0, 0);
+
     box-shadow: none !important;
 }
 
 .outside.MuiListItem-root {
     /* Non-expandable components, startpage etc */
-    border-radius: 25px;
-    margin-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.4);
+    color: var(--primary-black);
+    padding-top: 35px;
+    padding-left: 35px;
+    /* background-color: rgba(255, 255, 255, 0.4); */
     font-size: large;
     font-weight: bolder;
 }
