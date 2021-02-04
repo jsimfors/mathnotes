@@ -21,6 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Add one of yarn.lock or package-lock to gitignore, to avoid two dependency tree lock files
-yarn.lock
