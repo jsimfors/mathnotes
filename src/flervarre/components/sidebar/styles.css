@@ -1,33 +1,30 @@
-/* #sidebar-wrapper { finns på algebra sidan
-    margin-left: 20px;
-} */
-
-/* Mycket av detta kan du ta bort. Ha endast kvar det som ändrar primary variable colors */
-
-.MuiAccordionSummary-content {
-    color: #292F36;
-    /* font-size: large;
-    font-weight: bolder; */
+#flervarre  #sidebar-wrapper {
+    background: linear-gradient(0deg, var(--primary-fire) 35%, var(--secondary-fire) 100%);
 }
 
-#flervarre .MuiAccordionSummary-root {
-    /* Expandable components */
-    /* border-radius: 30px;
-    margin-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.4); */
+.MuiAccordionSummary-content {
+    /* closest div around inner text */
+    color: #292F36;
+    font-size: large;
+    font-weight: bolder;
+}
 
+.MuiAccordionSummary-root {
+    /* large div around text  */
+    margin-bottom: 10px;
 }
 
 #flervarre .MuiPaper-root{
+    /* Full sidebar block */
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none !important;
 }
 
-/* .outside.MuiListItem-root {
-     Non-expandable components, startpage etc 
-    border-radius: 25px;
-    margin-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.4);
+.outside.MuiListItem-root {
+    /* Non-expandable components, startpage etc */
+    color: var(--primary-black);
+    padding-top: 35px;
+    padding-left: 35px;
     font-size: large;
     font-weight: bolder;
 }
@@ -35,11 +32,10 @@
 
 .MuiAccordion-root:before {
     height: 0px !important;
-} */
+}
 
-#flervarre  .MuiAccordionDetails-root {
+.MuiAccordionDetails-root {
     /* Expanded contents */
     border-radius: 25px;
     margin-bottom: 5px;
-    background-color: rgba(255, 255, 255, 0.4);
 }

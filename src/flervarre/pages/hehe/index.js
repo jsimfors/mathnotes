@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../innerPages.css';
 
 const Hehepage = () => (
   <div className="content">
