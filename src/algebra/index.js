@@ -174,8 +174,9 @@ const AlgebraPage = () => {
             </NavLink>
           <NavLink to={'/algebra/hehe'}>
             <ListItem className="outside" id="hehe">
-            <img alt="hehe" src={require('./imgs/logo192.png')} />
-              </ListItem>
+              :)
+            {/* <img alt="hehe" src={require('./imgs/logo192.png')} /> */}
+            </ListItem>
           </NavLink>
 
           </Col>

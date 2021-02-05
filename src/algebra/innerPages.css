@@ -1,17 +1,18 @@
 #algebra.container-fluid {
-    background-color: var(--primary-white);
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position:left bottom;
-    height:200vh;
+    /* background-color: var(--primary-white); */
+    background-color: #fff;
 }
 
 .inner-content {
-    color: #363629;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.616);
-    padding: 20px 30px 50px 30px;
+    color: var(--primary-black);
+    text-align: center;
+    padding: 30px 30px 50px 30px;
     margin-right: 30px;
+
+}
+
+.inner-content.startpage, .inner-content.tips {
+    text-align: left;
 }
 
 .inner-content h2 {
@@ -19,9 +20,21 @@
 }
 
 .inner-content a {
-    color:#1a1b1b !important;
+    color:#1a1b1b;
     text-decoration: underline;
 }
+
+.inner-content.tips a {
+    color:var(--primary-blue);
+    text-decoration: underline;
+}
+
+.inner-content.tips a:hover{
+    color: var(--secondary-blue);
+}
+
+
+
 
 .inner-header{
     font-size: xx-large;

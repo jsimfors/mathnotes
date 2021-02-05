@@ -1,6 +1,6 @@
 
-
-#flervarre.container-fluid {
+/* UPDATE to depend on _one_ innerPages.css, and only do unique Flervarre-related styling here*/
+/* #flervarre.container-fluid {
     background-image: url(./blueback.svg);
     background-color: #474b4a3f;
     background-repeat:no-repeat;
@@ -49,4 +49,4 @@
     font-size: 3.5em;
     text-align: center;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
+} */

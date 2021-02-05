@@ -54,10 +54,10 @@ html, body, #app, #app>div {
 }
 
 #hehe {
-  background-color: #4ecdc500 !important;
-  height: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 50px;
+  font-size: small;
+  font-weight: lighter;
 }
 
 #hehe img {
@@ -67,13 +67,7 @@ html, body, #app, #app>div {
   transition: all .2s ease-in-out; 
 }
 
-#hehe img:hover {
-  transform: scale(1.2);
+#hehe:hover {
+  font-weight: bold;
   transition-timing-function: ease-in-out;
-}
-
-#blueText {
-  color:#059389 !important;
-  font-weight: bolder;
-  font-style: italic;
 }
