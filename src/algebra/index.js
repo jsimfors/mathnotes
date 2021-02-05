@@ -14,10 +14,7 @@ import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
 import Tipspage from './pages/tipspage'
 import Hehepage from './pages/hehe'
-import Ovning1f from './pages/ovning1/f.js'
-import Ovning1u from './pages/ovning1/u.js'
-import Ovning2f from './pages/ovning2/f.js'
-import Ovning2u from './pages/ovning2/u.js'
+import {Ovning1f, Ovning1u, Ovning2f, Ovning2u } from './innerpages.js'
 import Ovning3f from './pages/ovning3/f.js'
 import Ovning3u from './pages/ovning3/u.js'
 import Ovning4f from './pages/ovning4/f.js'
@@ -176,7 +173,7 @@ const AlgebraPage = () => {
             <ListItem className="outside" id="hehe">
               :)
             {/* <img alt="hehe" src={require('./imgs/logo192.png')} /> */}
-            </ListItem>
+              </ListItem>
           </NavLink>
 
           </Col>

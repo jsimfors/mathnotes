@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../innerPages.css'
 
 const Ovning4f = () => (
   <div className="inner-content">

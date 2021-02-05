@@ -1,0 +1,8 @@
+Styla om flervarre sidan
+Styla om sannstat sidan
+Flytta och kombinera CSS filerna
+Behöver varje inner-page verkligen vara egen fil?
+behöver varje inner page läsa in innerpage.css separat?
+Automatisera inläsningen av Drive-elementen bättre
+Gör hehe-sidan responsiv
+mobilanpassa bättre

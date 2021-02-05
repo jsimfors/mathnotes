@@ -3,12 +3,12 @@ import Button from 'react';
 import {
   NavLink
   } from "react-router-dom";
-import '../../innerPages.css';
+// import '../../innerPages.css';
 
 
 const Startpage = () => (
   <div className="inner-content startpage">
-    <div className="inner-header">Välkommen</div>
+    <div className="inner-header">Välkommen till SF1624 Algebra & Geometri</div>
     På denna sida finns anteckningar samt formelblad till alla mina övningar.
     Formelbladen innehåller det du behöver för att ta dig igenom respektive övning, 
     så läs gärna igenom dem redan innan övningen.
