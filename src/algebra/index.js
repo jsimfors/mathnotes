@@ -4,8 +4,6 @@ import {
   NavLink,
   BrowserRouter,
   useHistory,
-  Link,
-  Switch
   } from "react-router-dom";
 import ListItem from '@material-ui/core/ListItem';
 import { Container, Row, Col, Button} from 'react-bootstrap';
@@ -14,126 +12,46 @@ import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
 import Tipspage from './pages/tipspage'
 import Hehepage from './pages/hehe'
-import {Ovning1f, Ovning1u, Ovning2f, Ovning2u } from './innerpages.js'
-import Ovning3f from './pages/ovning3/f.js'
-import Ovning3u from './pages/ovning3/u.js'
-import Ovning4f from './pages/ovning4/f.js'
-import Ovning4u from './pages/ovning4/u.js'
-import Ovning5f from './pages/ovning5/f.js'
-import Ovning5u from './pages/ovning5/u.js'
-import Ovning6f from './pages/ovning6/f.js'
-import Ovning6u from './pages/ovning6/u.js'
-import Ovning7f from './pages/ovning7/f.js'
-import Ovning7u from './pages/ovning7/u.js'
-import Ovning8f from './pages/ovning8/f.js'
-import Ovning8u from './pages/ovning8/u.js'
-import Ovning9f from './pages/ovning9/f.js'
-import Ovning9u from './pages/ovning9/u.js'
-import Ovning10f from './pages/ovning10/f.js'
-import Ovning10u from './pages/ovning10/u.js'
-import Ovning11f from './pages/ovning11/f.js'
-import Ovning11u from './pages/ovning11/u.js'
-import Ovning12f from './pages/ovning12/f.js'
-import Ovning12u from './pages/ovning12/u.js'
-import Ovning13u from './pages/ovning13/u.js'
-import Ovning14u from './pages/ovning14/u.js'
+import {
+  Ovning1f, Ovning1u, Ovning2f, Ovning2u, Ovning3f, Ovning3u, 
+  Ovning4f, Ovning4u, Ovning5f, Ovning5u, Ovning6f, Ovning6u, 
+  Ovning7f, Ovning7u, Ovning8f, Ovning8u, Ovning9f, Ovning9u,
+  Ovning10f, Ovning10u, Ovning11f, Ovning11u, Ovning12f, Ovning12u,
+  Ovning13u, Ovning14u } from './innerpages.js'
 
+var allOvningsData = {
+  'ovning1':'1. Grundläggande Vektoralgebra & Linjer ',
+  'ovning2':'2. Plan, Ekvationssystem & Gausselimination ',
+  'ovning3':'3. Matrisaritmetik & Gausselimination forts.',
+  'ovning4':'4. Inversmatriser',
+  'ovning5':'5. Linjärkombination, Linjärt Oberoende & Delrum',
+  'ovning6':'6. Determinanten',
+  'ovning7':'7. Linjära Avbildningar',
+  'ovning8':'8. Bildrum & Nollrum',
+  'ovning9':'9. Baser & Ortogonala Komplement',
+  'ovning10':'10. Gram Schmidt & MKM',
+  'ovning11':'11. Egenvektorer, Egenvärden & Diagonalisering',
+  'ovning12':'12. Linjära Avbildningar i Olika Baser & Kvadratisk Form',
+  'ovning13':'13. Repetitionsövning 1',
+  'ovning14':'14. Repetitionsövning 2'
+}
 
-const items = [
-  { name: 'ovning1', label: '1. Grundläggande Vektoralgebra & Linjer ', link: '',
-    items: [
-      { name: 'f', label: 'Formelblad', link: '/algebra/ovning1/f.js' },
-      { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning1/u.js' },
+const items = [];
+Object.keys(allOvningsData).map(key => 
+  items.push(
+    { name: key, label: allOvningsData[key], link: '',
+    items: key=='ovning13'||key=='ovning14'?
+    [
+      { name: 'u', label: 'Anteckningar från övning', link: '/algebra/' + key + '/u.js' },
+    ]
+    :
+    [
+      { name: 'f', label: 'Formelblad', link: '/algebra/' + key + '/f.js' },
+      { name: 'u', label: 'Anteckningar från övning', link: '/algebra/' + key + '/u.js' },
     ],
-  },
-
-  { name: 'ovning2', label: '2. Plan, Ekvationssystem & Gausselimination ', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning2/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning2/u.js' },
-  ],
-  },
-
-  { name: 'ovning3', label: '3. Matrisaritmetik & Gausselimination forts.', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning3/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning3/u.js' },
-    ],
-  }, 
-  
-  { name: 'ovning4', label: '4. Inversmatriser', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning4/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning4/u.js' },
-    ],
-  },  
-  
-  { name: 'ovning5', label: '5. Linjärkombination, Linjärt Oberoende & Delrum', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning5/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning5/u.js' },
-    ],
-  },
-
-  { name: 'ovning6', label: '6. Determinanten', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning6/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning6/u.js' },
-    ],
-  },
-
-  { name: 'ovning7', label: '7. Linjära Avbildningar', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning7/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning7/u.js' },
-  ],
-  },
-
-  { name: 'ovning8', label: '8. Bildrum & Nollrum', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning8/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning8/u.js' },
-  ],
-  },
-
-  { name: 'ovning9', label: '9. Baser & Ortogonala Komplement', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning9/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning9/u.js' },
-  ],
-  },
-
-  { name: 'ovning10', label: '10. Gram Schmidt & MKM', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning10/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning10/u.js' },
-  ],
-  },
-
-  { name: 'ovning11', label: '11. Egenvektorer, Egenvärden & Diagonalisering', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning11/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning11/u.js' },
-  ],
-  },
-
-  { name: 'ovning12', label: '12. Linjära Avbildningar i Olika Baser & Kvadratisk Form', link: '',
-  items: [
-    { name: 'f', label: 'Formelblad', link: '/algebra/ovning12/f.js' },
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning12/u.js' },
-  ],
-  },
-  { name: 'ovning13', label: '13. Repetitionsövning 1', link: '',
-  items: [
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning13/u.js' },
-  ],
-  },
-  { name: 'ovning14', label: '14. Repetitionsövning 2', link: '',
-  items: [
-    { name: 'u', label: 'Anteckningar från övning', link: '/algebra/ovning14/u.js' },
-  ],
-  },  
-]
+    }
+  )
+)
 
 const AlgebraPage = () => {
     let history = useHistory();
