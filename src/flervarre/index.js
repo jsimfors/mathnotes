@@ -17,7 +17,7 @@ import {
   Ovning4f, Ovning4u, Ovning5f, Ovning5u, Ovning6f, Ovning6u, 
   Ovning7f, Ovning7u, Ovning8f, Ovning8u, Ovning9f, Ovning9u,
   Ovning10f, Ovning10u, Ovning11f, Ovning11u, Ovning12f, Ovning12u,
-  Ovning13u, Ovning14u } from './innerpages.js'
+  Ovning13u } from './innerpages.js'
 
 var allOvningsData = {
   'ovning1':'1. Flervarre1 ',
@@ -32,8 +32,7 @@ var allOvningsData = {
   'ovning10':'10. Gram Schmidt & MKM',
   'ovning11':'11. Egenvektorer, Egenvärden & Diagonalisering',
   'ovning12':'12. Linjära Avbildningar i Olika Baser & Kvadratisk Form',
-  'ovning13':'13. Repetitionsövning 1',
-  'ovning14':'14. Repetitionsövning 2'
+  'ovning13':'13. Repetitionsövning 1'
 }
 
 const items = [];
@@ -46,7 +45,7 @@ Object.keys(allOvningsData).map(key =>
     ]
     :
     [
-      { name: 'f', label: 'Formelblad', link: '/flervarre/' + key + '/f.js' },
+      { name: 'f', label: 'Tillhörande teori', link: '/flervarre/' + key + '/f.js' },
       { name: 'u', label: 'Anteckningar från övning', link: '/flervarre/' + key + '/u.js' },
     ],
     }
@@ -123,7 +122,6 @@ const FlervarrePage  = () => {
                 <Route path="/flervarre/ovning12/f.js" component={Ovning12f} />
                 <Route path="/flervarre/ovning12/u.js" component={Ovning12u} />
                 <Route path="/flervarre/ovning13/u.js" component={Ovning13u} />
-                <Route path="/flervarre/ovning14/u.js" component={Ovning14u} />
                 <Route path="/flervarre/tips" component={Tipspage} />
                 <Route path="/flervarre/hehe" component={Hehepage} />
             </div>

@@ -32,7 +32,7 @@ var allDocuments = {
 function createElement(driveID){
     return(
         <div className="inner-content">
-          <iframe width="90%" height="1350" title="formelblad" src={"https://drive.google.com/file/d/" + driveID + "/preview"} frameBorder="3" allowFullScreen></iframe>
+          <iframe width="100%" height="1350" title="formelblad" src={"https://drive.google.com/file/d/" + driveID + "/preview"} frameBorder="3" allowFullScreen></iframe>
         </div>
       );
 }
