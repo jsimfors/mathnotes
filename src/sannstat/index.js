@@ -20,10 +20,10 @@ const SannstatPage = () => {
   return (
   <Container fluid id="sannstat">
       <Row className="topHeader">
-        <Col sm={1} id="wrapperBackButton">
+        <Col xs={1} id="wrapperBackButton">
           <div id="backButton" onClick={redirect}>&#60;</div>
         </Col>
-        <Col  sm={11} id="text">
+        <Col  xs={10} id="text">
           Sannstat.
         </Col>
       </Row>

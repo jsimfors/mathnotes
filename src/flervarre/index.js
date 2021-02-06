@@ -63,13 +63,11 @@ const FlervarrePage  = () => {
     <BrowserRouter>
       <Container fluid id="flervarre">
         <Row className="topHeader">
-          <Col sm={1} id="wrapperBackButton">
-            {/* <Button onClick={redirect}><text>&#8678;</text></Button> */}
+          <Col xs={1} id="wrapperBackButton">
             <div id="backButton" onClick={redirect}>&#60;</div>
           </Col>
-          <Col  sm={11} id="text">
+          <Col  xs={10} id="text">
             Flervarre.
-            {/* SF1624 flervarre &#038; GEOMETRI */}
           </Col>
         </Row>
         <Row>

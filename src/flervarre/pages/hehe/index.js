@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hehepage = () => (
   <div className="content">
-    <div className="container-fluid">
+    <div className="container-fluid" id="hehe-page">
       <div className="row">
         <div className="col-md-12">
           <div className="inner-content" id="startpage">

@@ -1,8 +1,6 @@
 Flytta och kombinera CSS filerna
 Gör hehe-sidan responsiv
-mobilanpassa bättre
 search for TODO tags for details
 uppdatera google analytics event
 flervarre + m
-flervarre add appr links to all pages
-Move code with drive id and link data to separate file
+flervarre add approp links to all pages

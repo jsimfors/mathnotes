@@ -54,22 +54,3 @@ html, body, #app, #app>div {
 .outside a {
   color: #292F36 !important;
 }
-
-#hehe {
-  margin-bottom: 50px;
-  margin-top: 50px;
-  font-size: small;
-  font-weight: lighter;
-}
-
-#hehe img {
-  -webkit-filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.39));
-  filter: drop-shadow(0px 0px 4px  rgba(0, 0, 0, 0.39));
-  width: 50px;
-  transition: all .2s ease-in-out; 
-}
-
-#hehe:hover {
-  font-weight: bold;
-  transition-timing-function: ease-in-out;
-}
