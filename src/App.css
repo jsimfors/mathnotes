@@ -26,31 +26,8 @@ html, body, #app, #app>div {
   height: 100%
 }
 
-
-
 .container-fluid {
-  color: #000000;
   height: 100vh;
   padding: 0px !important;
   margin: 0px;
  }
-
-.header {
-  background-color: #292F36;
-  padding: 20px;
-  color: #F7FFF7;
-  font-size: 48px;
-  font-weight: 300;
-}
-
-.sub-header {
-  color:#292F36;
-}
-
-.sidebar a {
-  color: #292F36 !important;
-}
-
-.outside a {
-  color: #292F36 !important;
-}

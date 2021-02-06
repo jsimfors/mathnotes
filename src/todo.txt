@@ -1,6 +1,5 @@
-Flytta och kombinera CSS filerna
-Gör hehe-sidan responsiv
-search for TODO tags for details
 uppdatera google analytics event
+
+TODO:
 flervarre + m
 flervarre add approp links to all pages

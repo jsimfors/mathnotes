@@ -1,41 +1,8 @@
 #flervarre  #sidebar-wrapper {
     background: linear-gradient(0deg, var(--primary-green) 35%, var(--secondary-green) 100%);
 }
-
-.MuiAccordionSummary-content {
-    /* closest div around inner text */
-    color: #292F36;
-    font-size: large;
-    font-weight: bolder;
-}
-
-.MuiAccordionSummary-root {
-    /* large div around text  */
-    margin-bottom: 10px;
-}
-
 #flervarre .MuiPaper-root{
     /* Full sidebar block */
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none !important;
-}
-
-.outside.MuiListItem-root {
-    /* Non-expandable components, startpage etc */
-    color: var(--primary-black);
-    padding-top: 35px;
-    padding-left: 35px;
-    font-size: large;
-    font-weight: bolder;
-}
-
-
-.MuiAccordion-root:before {
-    height: 0px !important;
-}
-
-.MuiAccordionDetails-root {
-    /* Expanded contents */
-    border-radius: 25px;
-    margin-bottom: 5px;
 }
