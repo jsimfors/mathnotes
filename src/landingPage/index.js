@@ -15,13 +15,13 @@ const LandingPage = () => {
           Välj din kurs:
           <div className="buttons">
             <Link to="/algebra">
-              <Button variant="warning">SF1624 Algebra</Button>
+              <Button variant="dark">SF1624 Algebra</Button>
             </Link>
             <Link to="/flervarre" >
-              <Button variant="warning">SF1626 Flervarre</Button>
+              <Button variant="dark">SF1626 Flervarre</Button>
             </Link>
             <Link to="/sannstat" >
-              <Button variant="warning">SF16XY Sannstat</Button>
+              <Button variant="dark">SF19XY Sannstat</Button>
             </Link>
           </div>
       </Col>

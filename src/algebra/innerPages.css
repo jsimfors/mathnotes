@@ -14,15 +14,15 @@
 }
 
 .inner-content h2 {
-    color: #292F36;
+    color: var(--primary-black);
 }
 
 .inner-content a {
-    color:#1a1b1b;
+    color:var(--secondary-black);
     text-decoration: underline;
 }
 
-.inner-content.tips a {
+#algebra .inner-content.tips a {
     color:var(--primary-blue);
     text-decoration: underline;
 }

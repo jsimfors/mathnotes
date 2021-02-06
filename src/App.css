@@ -15,8 +15,10 @@ html, body {
   --secondary-blue: #b5e9ff;
   --primary-salmon: #ff5c64;
   --secondary-salmon: #ff7373;
-  --primary-fire: rgb(223, 109, 33);
-  --secondary-fire: rgb(224, 136, 36);
+  --primary-fire: rgb(255, 229, 79);
+  --secondary-fire: rgb(255, 236, 130);
+  --primary-green: #90c2a3;
+  --secondary-green: #c0f1c6;
 
 }
 

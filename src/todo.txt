@@ -1,6 +1,7 @@
-Styla om flervarre sidan
 Styla om sannstat sidan
 Flytta och kombinera CSS filerna
 Gör hehe-sidan responsiv
 mobilanpassa bättre
 search for TODO tags for details
+uppdatera google analytics event
+flervarre placeholders + m

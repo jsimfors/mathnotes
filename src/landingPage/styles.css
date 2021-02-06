@@ -1,7 +1,7 @@
 /* CSS FOR LANDING PAGE */
 
 #landing{
-    background-image: url(./backsvg.svg);
+    /* background-image: url(./backsvg.svg); */
     background-repeat:no-repeat;
     background-position:left bottom;
 }

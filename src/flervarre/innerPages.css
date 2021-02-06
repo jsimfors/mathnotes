@@ -2,9 +2,18 @@
     background-color: #fff;
 }
 
+#flervarre .inner-content.tips a {
+    color:var(--primary-green);
+    text-decoration: underline;
+}
+
+#flervarre .inner-content.tips a:hover{
+    color: var(--secondary-green);
+}
+
 /* TODO: combine with innerPages.css in algebra-folder (Remove this one) */
 
-.inner-content {
+/* .inner-content {
     color: var(--primary-black);
     text-align: center;
     padding: 30px 30px 50px 30px;
@@ -70,4 +79,4 @@
 .topHeader #backButton:hover {
     cursor: pointer;
     font-weight: 500;
-}
+} */
