@@ -11,7 +11,6 @@ import '../App.css';
 import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
 import Tipspage from './pages/tipspage'
-import Hehepage from './pages/hehe'
 import {
   Ovning1f, Ovning1u, Ovning2f, Ovning2u, Ovning3f, Ovning3u, 
   Ovning4f, Ovning4u, Ovning5f, Ovning5u, Ovning6f, Ovning6u, 
@@ -20,19 +19,19 @@ import {
   Ovning13u } from './innerpages.js'
 
 var allOvningsData = {
-  'ovning1':'1. Flervarre1 ',
-  'ovning2':'2. Flervarre 2 osv... ',
-  'ovning3':'3. Matrisaritmetik & Gausselimination forts.',
-  'ovning4':'4. Inversmatriser',
-  'ovning5':'5. Linjärkombination, Linjärt Oberoende & Delrum',
-  'ovning6':'6. Determinanten',
-  'ovning7':'7. Linjära Avbildningar',
-  'ovning8':'8. Bildrum & Nollrum',
-  'ovning9':'9. Baser & Ortogonala Komplement',
-  'ovning10':'10. Gram Schmidt & MKM',
-  'ovning11':'11. Egenvektorer, Egenvärden & Diagonalisering',
-  'ovning12':'12. Linjära Avbildningar i Olika Baser & Kvadratisk Form',
-  'ovning13':'13. Repetitionsövning 1'
+  'ovning1':'1. Skissa & Beskriva Mängder',
+  'ovning2':'2. Kroklinjiga Koordinatsystem & Parametrisering',
+  'ovning3':'3. Nivåkurvor & Gränsvärden.',
+  'ovning4':'4. Partiella derivator',
+  'ovning5':'5. Gradient & Riktningsderivata',
+  'ovning6':'6. Taylors Formel,  Implicita funktioner & Extremvärden',
+  'ovning7':'7. Optimering',
+  'ovning8':'8. Dubbelintegraler',
+  'ovning9':'9. Trippelintegraler & Generaliserade integraler',
+  'ovning10':'10. Vektorfält & Kurvintegraler',
+  'ovning11':'11. Yt- & Flödesintegraler',
+  'ovning12':'12. Vektoranalysidentiteter & Greens formel',
+  'ovning13':'13. Gauss sats & Stokes sats'
 }
 
 const items = [];
@@ -83,13 +82,6 @@ const FlervarrePage  = () => {
                   Flervarre pluggtips
               </ListItem>
             </NavLink>
-          <NavLink to={'/flervarre/hehe'}>
-            <ListItem className="outside" id="hehe">
-              :)
-            {/* <img alt="hehe" src={require('./imgs/logo192.png')} /> */}
-              </ListItem>
-          </NavLink>
-
           </Col>
           <Col>
           <div>
@@ -121,7 +113,6 @@ const FlervarrePage  = () => {
                 <Route path="/flervarre/ovning12/u.js" component={Ovning12u} />
                 <Route path="/flervarre/ovning13/u.js" component={Ovning13u} />
                 <Route path="/flervarre/tips" component={Tipspage} />
-                <Route path="/flervarre/hehe" component={Hehepage} />
             </div>
           </div>
           </Col>
