@@ -12,11 +12,12 @@ import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
 import Tipspage from './pages/tipspage'
 import {
-  Ovning1f, Ovning1u, Ovning2f, Ovning2u, Ovning3f, Ovning3u, 
-  Ovning4f, Ovning4u, Ovning5f, Ovning5u, Ovning6f, Ovning6u, 
-  Ovning7f, Ovning7u, Ovning8f, Ovning8u, Ovning9f, Ovning9u,
-  Ovning10f, Ovning10u, Ovning11f, Ovning11u, Ovning12f, Ovning12u,
-  Ovning13u } from './innerpages.js'
+  Ovning1u, Ovning2u, Ovning3u, 
+  Ovning4u, Ovning5u, Ovning6u, 
+  Ovning7u, Ovning8u, Ovning9u,
+  Ovning10u, Ovning11u, Ovning12u,
+  Ovning13u 
+} from './innerpages.js'
 
 var allOvningsData = {
   'ovning1':'1. Skissa & Beskriva Mängder',
@@ -38,15 +39,10 @@ const items = [];
 Object.keys(allOvningsData).map(key => 
   items.push(
     { name: key, label: allOvningsData[key], link: '',
-    items: key=='ovning13'||key=='ovning14'?
+    items:
     [
       { name: 'u', label: 'Anteckningar från övning', link: '/flervarre/' + key + '/u.js' },
     ]
-    :
-    [
-      { name: 'f', label: 'Tillhörande teori', link: '/flervarre/' + key + '/f.js' },
-      { name: 'u', label: 'Anteckningar från övning', link: '/flervarre/' + key + '/u.js' },
-    ],
     }
   )
 )
@@ -87,29 +83,17 @@ const FlervarrePage  = () => {
           <div>
             <div className="content">
                 <Route exact path="/flervarre" component={Startpage} />
-                <Route path="/flervarre/ovning1/f.js" component={Ovning1f} />
                 <Route path="/flervarre/ovning1/u.js" component={Ovning1u} />
-                <Route path="/flervarre/ovning2/f.js" component={Ovning2f} />
                 <Route path="/flervarre/ovning2/u.js" component={Ovning2u} />
-                <Route path="/flervarre/ovning3/f.js" component={Ovning3f} />
                 <Route path="/flervarre/ovning3/u.js" component={Ovning3u} />
-                <Route path="/flervarre/ovning4/f.js" component={Ovning4f} />
                 <Route path="/flervarre/ovning4/u.js" component={Ovning4u} />
-                <Route path="/flervarre/ovning5/f.js" component={Ovning5f} />
                 <Route path="/flervarre/ovning5/u.js" component={Ovning5u} />
-                <Route path="/flervarre/ovning6/f.js" component={Ovning6f} />
                 <Route path="/flervarre/ovning6/u.js" component={Ovning6u} />
-                <Route path="/flervarre/ovning7/f.js" component={Ovning7f} />
                 <Route path="/flervarre/ovning7/u.js" component={Ovning7u} />
-                <Route path="/flervarre/ovning8/f.js" component={Ovning8f} />
                 <Route path="/flervarre/ovning8/u.js" component={Ovning8u} />
-                <Route path="/flervarre/ovning9/f.js" component={Ovning9f} />
                 <Route path="/flervarre/ovning9/u.js" component={Ovning9u} />
-                <Route path="/flervarre/ovning10/f.js" component={Ovning10f} />
                 <Route path="/flervarre/ovning10/u.js" component={Ovning10u} />
-                <Route path="/flervarre/ovning11/f.js" component={Ovning11f} />
                 <Route path="/flervarre/ovning11/u.js" component={Ovning11u} />
-                <Route path="/flervarre/ovning12/f.js" component={Ovning12f} />
                 <Route path="/flervarre/ovning12/u.js" component={Ovning12u} />
                 <Route path="/flervarre/ovning13/u.js" component={Ovning13u} />
                 <Route path="/flervarre/tips" component={Tipspage} />

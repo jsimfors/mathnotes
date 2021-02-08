@@ -6,3 +6,7 @@
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none !important;
 }
+
+#flervarre a {
+    color: var(--dark-green);
+}
