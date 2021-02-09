@@ -6,7 +6,7 @@ import {
   useHistory,
   } from "react-router-dom";
 import ListItem from '@material-ui/core/ListItem';
-import { Container, Row, Col, Button} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import '../App.css';
 import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'

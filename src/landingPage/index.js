@@ -28,7 +28,7 @@ const LandingPage = () => {
       </Row>
       <Row>
         <Col>
-          <div id="disclaimer"  class="fixed-bottom">
+          <div id="disclaimer"  className="fixed-bottom">
             Disclaimer: This is a personal web-page. Its content does not represent any official view of the Royal institute of Technology.
           </div>
         </Col>

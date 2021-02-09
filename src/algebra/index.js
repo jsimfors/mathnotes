@@ -6,7 +6,7 @@ import {
   useHistory,
   } from "react-router-dom";
 import ListItem from '@material-ui/core/ListItem';
-import { Container, Row, Col, Button} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import '../App.css';
 import Sidebar from './components/sidebar'
 import Startpage from './pages/startpage'
@@ -40,7 +40,7 @@ const items = [];
 Object.keys(allOvningsData).map(key => 
   items.push(
     { name: key, label: allOvningsData[key], link: '',
-    items: key=='ovning13'||key=='ovning14'?
+    items: key==='ovning13'||key==='ovning14'?
     [
       { name: 'u', label: 'Anteckningar från övning', link: '/algebra/' + key + '/u.js' },
     ]

@@ -12,7 +12,7 @@ const Tipspage = () => (
         Ludu
       </a>
     </div>
-      Sidan Ludu sammanfattar hela kursen väldigt snyggt och enkelt! Ibland lite väl förenklat, så att teorin inte riktigt blir heltäckande. Men absolut ett kanon förstasteg om man känner sig rikslost inom ett område.
+      Sidan Ludu sammanfattar hela kursen väldigt snyggt och enkelt. Ibland så förenklat att teorin inte riktigt blir heltäckande. Men absolut ett kanon första steg om man känner sig rikslost inom ett område.
   <div className="subHeader">
       <a href="http://ingforum.haninge.kth.se/armin/AR_11_12/SF1626/dirfler11_12.html">
         Armins teoriblad
@@ -22,10 +22,10 @@ const Tipspage = () => (
   
     <div className="subHeader">
       <a href="http://www.math.kth.se/~ekola/flervarre.html">
-        Tommy's teoriblad
+        Tommys teoriblad
       </a>
     </div>
-  Även Tommy har gjort en sida med massa olika sammanfattningar till flervarrens alla områden. Själva hemsidan må ha några år på nacken, men sammanfattningarna här är faktiskt riktigt bra! Tydliga och lättlästa. Något kortare än Armins!
+  Även Tommy har gjort en sida med massa olika sammanfattningar till flervarrens alla områden. Själva hemsidan må ha några år på nacken, men sammanfattningarna här är faktiskt riktigt bra! Tydliga och lättlästa. Något kortare än Armins.
   
   <div className="subHeader">
       <a href="https://www.geogebra.org/3d/">
@@ -39,14 +39,14 @@ const Tipspage = () => (
         Wolfram Alpha
       </a>
     </div>
-  Antar, och hoppas, att ni redan har koll på Wolfram. Superverktyg för att dubbelkolla sina integraler och ekvationer. Ibland när man är långt intrasslad i sina lösningar, och inte fattar varför man inte får samma svar som facit, är Wolfram precis vad man behöver! Gotta in skiten där och se steg för steg var du tappade bort den där sketna x2-termen.
+  Antar, och hoppas, att ni redan har koll på Wolfram. Superverktyg för att dubbelkolla sina integraler och ekvationer. Ibland när man är långt intrasslad i sina lösningar, och inte fattar varför man inte får samma svar som facit, är Wolfram precis vad man behöver. Gotta in skiten där och se steg för steg var du tappade bort den där sketna x2-termen.
   
     <div className="subHeader">
       <a href="https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7">
         3Blue1Brown @ Khan Academy
       </a>
     </div>
-      I algebran tipsade jag er om att kika på 3Blue1Brown's fantastiska algebra-spellista! Han har faktiskt gjort en för <i>Multivariable calculus</i> med. Den är inte riktigt lika vass som den i algebran, och avsnitten är mycket längre. Men ett bra ställe att kika på om man vill ha bättre visuel förståelse inom ett område.
+      I algebran tipsade jag er om att kika på 3Blue1Brown's fantastiska algebra-spellista. Han har faktiskt gjort en för <i>Multivariable calculus</i> med. Den är inte riktigt lika vass som den i algebran, och avsnitten är mycket längre. Men ett bra ställe att kika på om man vill ha bättre visuel förståelse inom ett område.
     <div className="subHeader">
       <a href="https://kollin.io/course/17/home">
         Kollin

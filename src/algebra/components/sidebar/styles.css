@@ -2,6 +2,10 @@
     background: linear-gradient(0deg, var(--primary-blue) 35%, var(--secondary-blue) 100%);
 }
 
+#sidebar-wrapper a {
+    color: var(--primary-black);
+}
+
 .MuiAccordionSummary-content {
     /* closest div around inner text */
     color: #292F36;

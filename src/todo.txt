@@ -1,5 +1,0 @@
-uppdatera google analytics event
-
-TODO:
-flervarre + m
-flervarre add approp links to all pages
