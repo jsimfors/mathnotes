@@ -14,3 +14,8 @@
 #flervarre .inner-content#link-page{
     text-align: left;
 }
+
+#redtext{
+    color: rgb(164, 22, 22);
+    font-weight: 400;
+}
