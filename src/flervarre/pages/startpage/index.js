@@ -7,7 +7,6 @@ const Startpage = () => (
     Missa inte heller fliken <i>Pluggtips</i>, där jag utöver tips samlat lite bra länkar att ha koll på. Det finns så mycket bra material och sammanfattningar där ute! Use it wisely!
     <br/><br/>
       Notera att alla övningar och seminarier sker digitalt, via zoom.<br/>
-      <div id="redtext"><b>Obs! Om ni missat infon på Canvas: övningen den 26/2 kommer ske klockan 15-17 istället för 10-12.</b></div>
       Länken är alltid: <a href="https://kth-se.zoom.us/j/64020585715">https://kth-se.zoom.us/j/64020585715</a><br/>
       <br/>
       Jag assar nu (P3 &amp; P4 VT21) CSAMH, <a href="https://cloud.timeedit.net/kth/web/public01/ri107515X13Z0XQ6Z86g3Y60y4026Y1730QgQY6Q562720559Y717.html">klicka här</a> för det exakta schemat.

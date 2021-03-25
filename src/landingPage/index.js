@@ -10,7 +10,7 @@ const LandingPage = () => {
       <Row>
         <Col className="inner-content">
           <div className="title">
-            En liten sida för mina anteckningar bara! :-) 
+            En liten sida för mina anteckningar :)
           </div>
           Välj din kurs:
           <div className="buttons">
