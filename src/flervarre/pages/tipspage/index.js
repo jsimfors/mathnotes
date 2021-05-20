@@ -14,7 +14,7 @@ const Tipspage = () => (
     </div>
       Sidan Ludu sammanfattar hela kursen väldigt snyggt och enkelt. Ibland så förenklat att teorin inte riktigt blir heltäckande. Men absolut ett kanon första steg om man känner sig rikslost inom ett område.
     <div className="subHeader">
-      <a href="https://kollin.io/course/17/home">
+      <a href="https://kollin.io/course/10/home">
         Kollin
       </a>
     </div>
@@ -68,7 +68,15 @@ const Tipspage = () => (
       </a>
     </div>
     Vår egen tids Jesus (skaparen till Derivate Calculator) har även skapat en integral-räknare. Ett perfekt ställe att dubbelkolla sina uträkningar på, precis som på deriverings-sidan så kan man helt gratis se alla steg, och alla regler, som används för att komma fram till lösningen.
-  </div>
+    
+    <div className="subHeader">
+    <a href="https://kollin-exams.s3.eu-north-1.amazonaws.com/resources/a4804fbde96e7b380b3426df49b37493-Kollin%20appendix%20flervariabelanalys%20VT20%20-%20Tam%20Vu.pdf">
+      Klassiska Enkelintegraler
+      </a>
+      </div>
+      Att ha koll på klassiska enkelintegraler är ett viktigt hjälpmedel för att lösa många uppgifter även i flervarren. Är man intresserad av att klara tentan så borde man plugga in dessa likt glosor. De kan ofta dyka upp som delar av svårare multipelintegraler.
+      Det finns många olika sammanfattningar av viktiga integraler där ute, den jag länkar här tycker jag är riktigt bra!
+      </div>
 );
 
 export default Tipspage;

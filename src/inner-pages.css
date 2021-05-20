@@ -99,3 +99,11 @@
       max-width: 80%;
       margin-top: 20px;
   }
+
+  #greyColor {
+    color: rgb(187, 187, 187);
+  }
+
+  #greyColor a {
+    color: rgb(187, 187, 187) !important;
+  }
