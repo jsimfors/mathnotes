@@ -12,7 +12,7 @@ const Tipspage = () => (
         3Blue1Brown
       </a>
     </div>
-    En spellista på YouTube med visuella förklaringar till mycket av det vi gör i denna kursen. Riktigt nice.
+    En spellista på YouTube med visuella förklaringar till mycket av det vi gör i denna kursen. <i>Riktigt</i> nice. 
     <div className="subHeader">
       <a href="https://kollin.io/course/17/home">
         Kollin
@@ -21,7 +21,9 @@ const Tipspage = () => (
     Ett verktyg, gjort av några studenter på KTH, som sorterar alla gamla tentauppgifter i typ alla kurser på KTH efter både område och svårighetsgrad. 
     Denna sidan har hjälpt mig sååå mycket! Typiskt nice att hitta de enklaste tentauppgifterna i varje område, så man kan börja med tentatal redan i Modul 1, då blir tröskeln inte så stor när tenta-P väl börjar.
     Också nice, om man är en statistiknörd som jag, att kunna betygsätta svårighetsgraden på alla uppgifter man gör, gå tillbaka och göra om de man tidigare tyckte va svåra, följa sin utveckling. osv osv.
-    Obs! Det kostar en slant att låsa upp en kurs.
+    Obs! Det kostar en slant att låsa upp en kurs. 
+    Som ni ser om ni går in på länken så har jag även hjälpt Kollin att ta fram en algebra-studieplan. 
+    Jag jobbar dock ej där, och detta är inte reklam. Det känns viktigt att nämna, speciellt eftersom de tar betalt för att använda hela tjänsten. Hitta ett pluggsätt som passar dig! :)
     <div className="subHeader">
       <a href="http://bit.ly/stukan">Stukan</a>
     </div>
@@ -41,8 +43,14 @@ const Tipspage = () => (
     <div className="subHeader">
     Online Matrisberäkning
   </div>
-    Ni måste såklart lära er beräkna allting för hand, för på tentan kommer ni inte ha några hjälpmedel. Men ibland kan det vara skönt att dubbelkolla ens beräkningar, speciellt om man kör fast och inte fattar var man gör fel. Då är sidorna <a href="http://matrixcalc.org/en/">Matrixcalc.org/eng</a> och <a href="https://matrix.reshish.com/">matrix.reshish.com</a> riktigt nice.
+    Ni måste såklart lära er beräkna allting för hand, för på tentan kommer ni inte ha några hjälpmedel. Men ibland kan det vara skönt att dubbelkolla sina beräkningar, speciellt om man kör fast och inte fattar var man gör fel. Då är sidorna <a href="http://matrixcalc.org/en/">Matrixcalc.org/eng</a> och <a href="https://matrix.reshish.com/">matrix.reshish.com</a> riktigt nice.
     Där kan man beräkna både matrismultiplikaitoner, determinanter, ta fram egenvärden och radreducera. Men som sagt, använd det bara som ett hjälpmedel att hitta var ni räknat fel, och inte som en ersättare för att räkna själva. 
+    <div className="subHeader">
+    <a href="http://wolframalpha.com/">
+      Wolfram Alpha
+    </a>
+    </div>
+    Wolfram är ett superverktyg för att dubbelkolla sina beräkningar. Antagligen något mer användbar i envarren och flervarren - men kan vara bra att känna till även nu.
   </div>
 );
 
