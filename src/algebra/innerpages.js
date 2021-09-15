@@ -32,6 +32,10 @@ var allDocuments = {
 function createElement(driveID){
     return(
         <div className="inner-content">
+          {driveID==allDocuments.Ovning6f? 'För CMAST HT21: Vi går igenom determinanter övning 5 istället för 6. Det är därför det står fel siffra här under i själva dokumentet. No need to worry, formelbladet ligger på rätt ställe. Det är alltså ordningen i sidomenyn som gäller :)' : ''}
+          {driveID==allDocuments.Ovning6u? 'För CMAST HT21: Vi går igenom determinanter övning 5 istället för 6. Det är därför det står fel siffra här under i själva dokumentet. No need to worry, anteckningarna ligger på rätt ställe. Det är alltså ordningen i sidomenyn som gäller :)' : ''}
+          {driveID==allDocuments.Ovning5f? 'För CMAST HT21: Vi går igenom linjärt oberoende  övning 6 istället för 5. Det är därför det står fel siffra här under i själva dokumentet. No need to worry, formelbladet ligger på rätt ställe. Det är alltså ordningen i sidomenyn som gäller :)' : ''}
+          {driveID==allDocuments.Ovning5u? 'För CMAST HT21: Vi går igenom linjärt oberoende  övning 6 istället för 5. Det är därför det står fel siffra här under i själva dokumentet. No need to worry, anteckningarna ligger på rätt ställe. Det är alltså ordningen i sidomenyn som gäller :)' : ''}
           <iframe width="100%" height="1350" title="formelblad" src={"https://drive.google.com/file/d/" + driveID + "/preview"} frameBorder="3" allowFullScreen></iframe>
         </div>
       );
@@ -45,10 +49,10 @@ const Ovning3f = () => createElement(allDocuments.Ovning3f);
 const Ovning3u = () => createElement(allDocuments.Ovning3u);
 const Ovning4f = () => createElement(allDocuments.Ovning4f);
 const Ovning4u = () => createElement(allDocuments.Ovning4u);
-const Ovning5f = () => createElement(allDocuments.Ovning5f);
-const Ovning5u = () => createElement(allDocuments.Ovning5u);
-const Ovning6f = () => createElement(allDocuments.Ovning6f);
-const Ovning6u = () => createElement(allDocuments.Ovning6u);
+const Ovning5f = () => createElement(allDocuments.Ovning6f);
+const Ovning5u = () => createElement(allDocuments.Ovning6u);
+const Ovning6f = () => createElement(allDocuments.Ovning5f);
+const Ovning6u = () => createElement(allDocuments.Ovning5u);
 const Ovning7f = () => createElement(allDocuments.Ovning7f);
 const Ovning7u = () => createElement(allDocuments.Ovning7u);
 const Ovning8f = () => createElement(allDocuments.Ovning8f);
